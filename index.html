@@ -4,46 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .control-group {
+            display: flex;
+            gap: 10px;
         }
         .card {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            max-width: 300px;
-            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            height: 300px; /* Fixed height for the card */
+            display: flex;
+            flex-direction: column;
+            position: relative;
         }
-        .card button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            background-color: #007BFF;
-            color: #fff;
-            cursor: pointer;
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .card button:hover {
-            background-color: #0056b3;
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0;
         }
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-text {
+            text-align: left;
+        }
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-count {
+            margin-right: auto;
+        }
+        .belt-stripe {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10px;
+            height: 100%;
+        }
+        .belt-white { background-color: #ffffff; border: 1px solid #ccc; }
+        .belt-yellow { background-color: #ffff00; }
+        .belt-orange { background-color: #ffa500; }
+        .belt-green { background-color: #008000; }
+        .belt-blue { background-color: #0000ff; }
+        .belt-brown { background-color: #8b4513; }
+        .belt-black { background-color: #000000; }
     </style>
 </head>
 <body>
-    <div class="card" id="card">
-        <div id="name"></div>
-        <div id="name_jp"></div>
-        <div id="description"></div>
-        <button onclick="nextCard()">Next Card</button>
+    <div class="controls">
+        <div class="control-group">
+            <select class="form-control" id="categorySelect" onchange="updateSubCategories()">
+                <option value="">Select Category</option>
+            </select>
+            <select class="form-control" id="subCategorySelect" onchange="filterCards()">
+                <option value="">Select Sub-Category</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <select class="form-control" id="kataSelect" onchange="filterCards()">
+                <option value="">Select Kata</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <select class="form-control" id="beltSelect" onchange="filterCards()">
+                <option value="">Select Belt</option>
+                <option value="white">White</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="brown">Brown</option>
+                <option value="black">Black</option>
+            </select>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title" id="cardTitle">Select filters to view cards</h5>
+            <div class="belt-stripe" id="beltStripe"></div>
+        </div>
+        <div class="card-body">
+            <p class="card-text" id="kataInfo"></p>
+            <p class="card-text" id="description"></p>
+        </div>
+        <div class="card-footer">
+            <span class="card-count" id="cardNumber"></span>
+            <button class="btn btn-secondary" onclick="previousCard()" id="previousButton">Previous</button>
+            <button class="btn btn-primary" onclick="nextCard()" id="nextButton">Next Card</button>
+        </div>
     </div>
 
-    <script src="src/js/app.js"></script>
+    <script src="/src/js/app.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

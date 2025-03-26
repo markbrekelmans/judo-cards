@@ -1,13 +1,362 @@
 {
     "waza": [
         {
-            "nage-waza": [
+            "category": "nage-waza",
+            "subcategories": [
                 {
-                    "te-waza": [
+                    "name": "te-waza",
+                    "techniques": [
                         {
                             "name": "seoi-nage",
                             "name_jp": "背負投",
-                            "description": "Seoi Nage is a classic shoulder throw where the practitioner lifts their opponent onto their back and throws them over the shoulder."
+                            "description": "Seoi Nage is a classic shoulder throw where the practitioner lifts their opponent onto their back and throws them over the shoulder.",
+                            "kata": {
+                                "name": "Nage-no-kata",
+                                "series": 1,
+                                "number": 5
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": true,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "tai-otoshi",
+                            "name_jp": "体落",
+                            "description": "Tai Otoshi is a throw where the practitioner uses their body to drop the opponent to the ground.",
+                            "kata": {
+                                "name": "Nage-no-kata",
+                                "series": 1,
+                                "number": 2
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": true,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "kata-guruma",
+                            "name_jp": "肩車",
+                            "description": "Kata Guruma is a shoulder wheel throw where the practitioner lifts the opponent over their shoulder.",
+                            "kata": {
+                                "name": "Nage-no-kata",
+                                "series": 1,
+                                "number": 3
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": true,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "koshi-waza",
+                    "techniques": [
+                        {
+                            "name": "o-goshi",
+                            "name_jp": "大腰",
+                            "description": "O Goshi is a hip throw where the practitioner uses their hip to throw the opponent.",
+                            "kata": {
+                                "name": "Nage-no-kata",
+                                "series": 1,
+                                "number": 1
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": true,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "koshi-guruma",
+                            "name_jp": "腰車",
+                            "description": "Koshi Guruma is a hip wheel throw where the practitioner lifts the opponent over their hip.",
+                            "kata": {
+                                "name": "Nage-no-kata",
+                                "series": 1,
+                                "number": 4
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": true,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "tsurikomi-goshi",
+                            "name_jp": "釣込腰",
+                            "description": "Tsurikomi Goshi is a lifting and pulling hip throw.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": true,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "harai-goshi",
+                            "name_jp": "払腰",
+                            "description": "Harai Goshi is a sweeping hip throw.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": true,
+                                "brown": false,
+                                "black": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ashi-waza",
+                    "techniques": [
+                        {
+                            "name": "o-soto-gari",
+                            "name_jp": "大外刈",
+                            "description": "O Soto Gari is a major outer reap throw.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": true,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "de-ashi-barai",
+                            "name_jp": "出足払",
+                            "description": "De Ashi Barai is a forward foot sweep.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": true,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "hiza-guruma",
+                            "name_jp": "膝車",
+                            "description": "Hiza Guruma is a knee wheel throw.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": true,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "katame-waza",
+            "subcategories": [
+                {
+                    "name": "osaekomi-waza",
+                    "techniques": [
+                        {
+                            "name": "kami-shiho-gatame",
+                            "name_jp": "上四方固",
+                            "description": "Kami Shiho Gatame is a grappling hold where the practitioner pins the opponent face-down on the ground.",
+                            "kata": {
+                                "name": "Katame-no-kata",
+                                "series": 1,
+                                "number": 1
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": true,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "kuzure-kesa-gatame",
+                            "name_jp": "崩袈裟固",
+                            "description": "Kuzure Kesa Gatame is a modified scarf hold where the practitioner controls the opponent's upper body.",
+                            "kata": {
+                                "name": "Katame-no-kata",
+                                "series": 1,
+                                "number": 2
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": true,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "kesa-gatame",
+                            "name_jp": "袈裟固",
+                            "description": "Kesa Gatame is a scarf hold where the practitioner controls the opponent's upper body.",
+                            "kata": {
+                                "name": "Katame-no-kata",
+                                "series": 1,
+                                "number": 3
+                            },
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": true,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "shime-waza",
+                    "techniques": [
+                        {
+                            "name": "juji-gatame",
+                            "name_jp": "十字固",
+                            "description": "Juji Gatame is a cross armlock where the practitioner applies pressure to the opponent's elbow joint.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": true,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "ude-garami",
+                            "name_jp": "腕緘",
+                            "description": "Ude Garami is an entangled armlock where the practitioner controls the opponent's arm.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": true,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "sankaku-jime",
+                            "name_jp": "三角絞",
+                            "description": "Sankaku Jime is a triangle choke where the practitioner uses their legs to choke the opponent.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "kansetsu-waza",
+            "subcategories": [
+                {
+                    "name": "ude-hishigi",
+                    "techniques": [
+                        {
+                            "name": "ude-hishigi-juji-gatame",
+                            "name_jp": "腕挫十字固",
+                            "description": "Ude Hishigi Juji Gatame is an arm bar where the practitioner applies pressure to the opponent's elbow joint.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": true,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "ude-hishigi-ude-garami",
+                            "name_jp": "腕挫腕緘",
+                            "description": "Ude Hishigi Ude Garami is an entangled arm bar where the practitioner controls the opponent's arm.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "ude-hishigi-hiza-gatame",
+                            "name_jp": "腕挫膝固",
+                            "description": "Ude Hishigi Hiza Gatame is a knee bar where the practitioner applies pressure to the opponent's knee joint.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
                         }
                     ]
                 }
