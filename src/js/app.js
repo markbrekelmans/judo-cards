@@ -5,7 +5,7 @@ let subCategoriesData = {};
 let kataData = {};
 
 // Fetch the JSON data
-fetch('/src/data/waza.json')
+fetch('src/data/waza.json')
     .then(response => response.json())
     .then(data => {
         // Populate the main category dropdown menu
