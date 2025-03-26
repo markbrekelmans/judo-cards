@@ -1,0 +1,17 @@
+{
+    "waza": [
+        {
+            "nage-waza": [
+                {
+                    "te-waza": [
+                        {
+                            "name": "seoi-nage",
+                            "name_jp": "背負投",
+                            "description": "Seoi Nage is a classic shoulder throw where the practitioner lifts their opponent onto their back and throws them over the shoulder."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
