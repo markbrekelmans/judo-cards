@@ -20,6 +20,8 @@
             flex-direction: column;
             gap: 10px;
             margin-bottom: 20px;
+            width:100%;
+            max-width: 600px;
         }
         .control-group {
             display: flex;
@@ -27,8 +29,8 @@
         }
         .card {
             width: 100%;
-            max-width: 400px;
-            height: 300px; /* Fixed height for the card */
+            max-width: 600px;
+            height: 400px; /* Fixed height for the card */
             display: flex;
             flex-direction: column;
             position: relative;
@@ -47,7 +49,7 @@
             flex-grow: 1;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: start;
         }
         .card-text {
             text-align: left;
@@ -56,16 +58,21 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap:10px;
         }
         .card-count {
+            margin-left: auto;
             margin-right: auto;
         }
         .belt-stripe {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 10px;
-            height: 100%;
+            position:absolute;
+            top: 10px;
+            right: 0px;
+            width: 20px;
+            height: 25px;
+        }
+        .btn {
+            min-width: 60px;
         }
         .belt-white { background-color: #ffffff; border: 1px solid #ccc; }
         .belt-yellow { background-color: #ffff00; }
@@ -80,33 +87,33 @@
     <div class="controls">
         <div class="control-group">
             <select class="form-control" id="categorySelect" onchange="updateSubCategories()">
-                <option value="">Select Category</option>
+                <option value="">Categorie</option>
             </select>
             <select class="form-control" id="subCategorySelect" onchange="filterCards()">
-                <option value="">Select Sub-Category</option>
+                <option value="">Subcategorie</option>
             </select>
         </div>
         <div class="control-group">
             <select class="form-control" id="kataSelect" onchange="filterCards()">
-                <option value="">Select Kata</option>
+                <option value="">Kata</option>
             </select>
         </div>
         <div class="control-group">
             <select class="form-control" id="beltSelect" onchange="filterCards()">
-                <option value="">Select Belt</option>
-                <option value="white">White</option>
-                <option value="yellow">Yellow</option>
-                <option value="orange">Orange</option>
-                <option value="green">Green</option>
-                <option value="blue">Blue</option>
-                <option value="brown">Brown</option>
-                <option value="black">Black</option>
+                <option value="">Graduatie</option>
+                <option value="white">rokkyu</option>
+                <option value="yellow">go-kyu</option>
+                <option value="orange">yon-kyu</option>
+                <option value="green">san-kyu</option>
+                <option value="blue">ni-kyu</option>
+                <option value="brown">ikkyu</option>
+                <option value="black">sho-dan</option>
             </select>
         </div>
     </div>
     <div class="card">
         <div class="card-header">
-            <h5 class="card-title" id="cardTitle">Select filters to view cards</h5>
+            <h5 class="card-title" id="cardTitle">Selecteer filter om technieken weer te geven</h5>
             <div class="belt-stripe" id="beltStripe"></div>
         </div>
         <div class="card-body">
@@ -114,9 +121,9 @@
             <p class="card-text" id="description"></p>
         </div>
         <div class="card-footer">
+            <button class="btn btn-secondary" onclick="previousCard()" id="previousButton">&lt;</button>
             <span class="card-count" id="cardNumber"></span>
-            <button class="btn btn-secondary" onclick="previousCard()" id="previousButton">Previous</button>
-            <button class="btn btn-primary" onclick="nextCard()" id="nextButton">Next Card</button>
+            <button class="btn btn-primary" onclick="nextCard()" id="nextButton">&gt;</button>
         </div>
     </div>
 

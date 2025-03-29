@@ -1,23 +1,19 @@
 {
     "waza": [
         {
-            "category": "nage-waza",
+            "category": "nage-waza 投技",
             "subcategories": [
                 {
-                    "name": "te-waza",
+                    "name": "te-waza 手技",
                     "techniques": [
                         {
-                            "name": "seoi-nage",
+                            "name": "Seoi-nage",
                             "name_jp": "背負投",
-                            "description": "Seoi Nage is a classic shoulder throw where the practitioner lifts their opponent onto their back and throws them over the shoulder.",
-                            "kata": {
-                                "name": "Nage-no-kata",
-                                "series": 1,
-                                "number": 5
-                            },
+                            "description": "A technique to throw the opponent over the right shoulder by breaking his balance forward and inserting the right elbow underneath his right armpit to carry him on the back.",
+                            "kata": null,
                             "belts": {
                                 "white": false,
-                                "yellow": true,
+                                "yellow": false,
                                 "orange": false,
                                 "green": false,
                                 "blue": false,
@@ -26,18 +22,29 @@
                             }
                         },
                         {
-                            "name": "tai-otoshi",
-                            "name_jp": "体落",
-                            "description": "Tai Otoshi is a throw where the practitioner uses their body to drop the opponent to the ground.",
-                            "kata": {
-                                "name": "Nage-no-kata",
-                                "series": 1,
-                                "number": 2
-                            },
+                            "name": "Ippon-seoi-nage",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the right shoulder by breaking his balance forward and holding his right arm from the inside with the right arm to carry him on the back.",
+                            "kata": null,
                             "belts": {
                                 "white": false,
                                 "yellow": false,
-                                "orange": true,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Seoi-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to pull down and throw the opponent by breaking his balance forward and falling on one of the knees or both while carrying him on the back.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
                                 "green": false,
                                 "blue": false,
                                 "brown": false,
@@ -45,19 +52,195 @@
                             }
                         },
                         {
-                            "name": "kata-guruma",
-                            "name_jp": "肩車",
-                            "description": "Kata Guruma is a shoulder wheel throw where the practitioner lifts the opponent over their shoulder.",
-                            "kata": {
-                                "name": "Nage-no-kata",
-                                "series": 1,
-                                "number": 3
-                            },
+                            "name": "Tai-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to pull down and throw the opponent by breaking his balance forward and turning the body to the left to put the right foot in front of his right foot.",
+                            "kata": null,
                             "belts": {
                                 "white": false,
                                 "yellow": false,
                                 "orange": false,
-                                "green": true,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Kata-guruma",
+                            "name_jp": null,
+                            "description": "A technique to uplift the opponent on both shoulders across the back of the neck and throw him down by breaking his balance forward while holding his right thigh from the inside with the right arm.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Sukui-nage",
+                            "name_jp": null,
+                            "description": "A technique to uplift and throw down the opponent by breaking his balance backward while stepping behind him and holding both of his thighs from the front side with both hands or another technique to uplift the opponent’s one of thighs and throw him down by inserting the hand between his legs.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Obi-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to uplift and throw down the opponent by grabbing the front side of his belt with the right hand, pulling it forward while stepping behind him and holding his hip from the front side with the left hand to break his balance backward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Uki-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance forward and pulling him down toward the frontal-right corner.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Sumi-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to push and throw down the opponent by breaking his balance toward the retral-right corner while stepping onto the outside of his right foot with the left.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Yama-arashi",
+                            "name_jp": null,
+                            "description": "A technique to sweep up the opponent’s right leg with the right foot and throw him down by grabbing his right sleeve with the left hand and gripping his right side-collar with the right thumb inside while breaking his balance by lifting him up forward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Obi-tori-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the right shoulder by grabbing his belt over his shoulder with the right hand and holding his right arm or leg with the left hand while lifting him up.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Morote-gari",
+                            "name_jp": null,
+                            "description": "A technique to reap and throw down the opponent by holding both of his legs from the outside in both hands.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Kuchiki-taoshi",
+                            "name_jp": null,
+                            "description": "A technique to push down the opponent backward by holding one of his legs either from the inside or outside with one of the hands and pulling it up.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Kibisu-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent by reaping his heel either from the inside or outside with one of the hands.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Uchi-mata-sukashi",
+                            "name_jp": null,
+                            "description": "A technique to fend off the opponent’s Uchi-mata attempt and throw him down.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Ko-uchi-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to dodge the opponent’s Ko-uchi-gari attempt and throw him down.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
                                 "blue": false,
                                 "brown": false,
                                 "black": false
@@ -69,69 +252,151 @@
                     "name": "koshi-waza",
                     "techniques": [
                         {
-                            "name": "o-goshi",
-                            "name_jp": "大腰",
-                            "description": "O Goshi is a hip throw where the practitioner uses their hip to throw the opponent.",
-                            "kata": {
-                                "name": "Nage-no-kata",
-                                "series": 1,
-                                "number": 1
-                            },
-                            "belts": {
-                                "white": false,
-                                "yellow": true,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
-                        },
-                        {
-                            "name": "koshi-guruma",
-                            "name_jp": "腰車",
-                            "description": "Koshi Guruma is a hip wheel throw where the practitioner lifts the opponent over their hip.",
-                            "kata": {
-                                "name": "Nage-no-kata",
-                                "series": 1,
-                                "number": 4
-                            },
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": true,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
-                        },
-                        {
-                            "name": "tsurikomi-goshi",
-                            "name_jp": "釣込腰",
-                            "description": "Tsurikomi Goshi is a lifting and pulling hip throw.",
-                            "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": true,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
-                        },
-                        {
-                            "name": "harai-goshi",
-                            "name_jp": "払腰",
-                            "description": "Harai Goshi is a sweeping hip throw.",
+                            "name": "Uki-goshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance forward and inserting the right arm through his left armpit while loading him slightly onto the hip and twisting the body.",
                             "kata": null,
                             "belts": {
                                 "white": false,
                                 "yellow": false,
                                 "orange": false,
                                 "green": false,
-                                "blue": true,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "O-goshi",
+                            "name_jp": null,
+                            "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and inserting the right arm through his left armpit while holding his hip and drawing it closer.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Koshi-guruma",
+                            "name_jp": null,
+                            "description": "A technique to rotate the opponent on the axis of the hip and throw him down by breaking his balance forward and holding his neck in the right arm while thrusting the hip deeply.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Tsurikomi-goshi",
+                            "name_jp": null,
+                            "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left front-lapel with the right hand and lifting it up.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Sode-tsurikomi-goshi",
+                            "name_jp": null,
+                            "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left sleeve with the right hand and lifting it up.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Harai-goshi",
+                            "name_jp": null,
+                            "description": "A technique to sweep up the opponent with the right leg and throw him down by breaking his balance forward and loading him onto the back of the right hip.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Tsuri-goshi",
+                            "name_jp": null,
+                            "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and grabbing the back of his belt to lift it up.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Hane-goshi",
+                            "name_jp": null,
+                            "description": "A technique to spring up the opponent with the back of the right hip and the right leg and throw him down by breaking his balance forward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Utsuri-goshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by counteracting his Nage-waza or other attack, holding and lifting his hip with the right arm and shifting him onto the back of the hip.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Ushiro-goshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent vertically by counteracting his Nage-waza or other attack and holding and lifting his hip.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
                                 "brown": false,
                                 "black": false
                             }
@@ -142,13 +407,28 @@
                     "name": "ashi-waza",
                     "techniques": [
                         {
-                            "name": "o-soto-gari",
-                            "name_jp": "大外刈",
-                            "description": "O Soto Gari is a major outer reap throw.",
+                            "name": "De-ashi-harai",
+                            "name_jp": null,
+                            "description": "A technique to sweep the opponent’s right foot with the left foot and throw him down immediately when he takes a step forward and loads his weight onto it.",
                             "kata": null,
                             "belts": {
                                 "white": false,
-                                "yellow": true,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Hiza-guruma",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance forward and hold his right knee with the left foot to rotate him around it.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
                                 "orange": false,
                                 "green": false,
                                 "blue": false,
@@ -157,14 +437,14 @@
                             }
                         },
                         {
-                            "name": "de-ashi-barai",
-                            "name_jp": "出足払",
-                            "description": "De Ashi Barai is a forward foot sweep.",
+                            "name": "Sasae-tsurikomi-ashi",
+                            "name_jp": null,
+                            "description": "A technique to hold the opponent’s right ankle with the left foot and throw him down by breaking his balance while lifting him up forward.",
                             "kata": null,
                             "belts": {
                                 "white": false,
                                 "yellow": false,
-                                "orange": true,
+                                "orange": false,
                                 "green": false,
                                 "blue": false,
                                 "brown": false,
@@ -172,15 +452,595 @@
                             }
                         },
                         {
-                            "name": "hiza-guruma",
-                            "name_jp": "膝車",
-                            "description": "Hiza Guruma is a knee wheel throw.",
+                            "name": "O-soto-gari",
+                            "name_jp": null,
+                            "description": "A technique to reap the opponent’s right leg from the outside with the right leg and throw him down by breaking his balance backward.",
                             "kata": null,
                             "belts": {
                                 "white": false,
                                 "yellow": false,
                                 "orange": false,
-                                "green": true,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "O-uchi-gari",
+                            "name_jp": null,
+                            "description": "A technique to reap the opponent’s left leg from the inside with the right leg and throw him down by breaking his balance backward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Ko-soto-gari",
+                            "name_jp": null,
+                            "description": "A technique to reap the opponent’s right foot from the outside with the left foot and throw him down by breaking his balance backward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Ko-uchi-gari",
+                            "name_jp": null,
+                            "description": "A technique to reap the opponent’s right foot from the inside with the right foot and throw him down by breaking his balance backward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Okuri-ashi-harai",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by driving him leftward and sweep his right foot with the left foot so that both of his feet are put together.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Uchi-mata",
+                            "name_jp": null,
+                            "description": "A technique to sweep up the opponent’s left inner thigh with the back of the right thigh and throw him down by breaking his balance forward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Ko-soto-gake",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance backward, hooking the left foot or leg from the outside on his right leg and uplifting his body.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Ashi-guruma",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance forward, putting the right leg on his right knee and rotating him on its axis.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Harai-tsurikomi-ashi",
+                            "name_jp": null,
+                            "description": "A technique to sweep up the opponent’s ankle with the left foot from the front and throw him down by breaking his balance while lifting him up forward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "O-guruma",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance forward and putting the right leg around the area from his lower abdomen to upper part of thighs to rotate him on its axis.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "O-soto-guruma",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance backward and putting the right leg behind both of his legs to rotate him on its axis.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "O-soto-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent vertically by breaking his balance backward and sliding down the right leg on the back of his right thigh.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Tsubame-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by fending off his foot sweeping attempt and counter-sweeping with the same foot that was being attacked.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "O-soto-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by counter-reaping his O-soto-gari attempt with the leg that is being attacked.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "O-uchi-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by counter-reaping his O-uchi-gari attempt with the leg that is being attacked.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Hane-goshi-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by counteracting his Hane-goshi attempt either to reap or hook his pivot foot from the outside with the foot or leg.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Harai-goshi-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by counteracting his Harai-goshi attempt either to reap or hook his pivot foot from the outside with the foot or leg.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Uchi-mata-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by counteracting his Uchi-mata attempt either to reap or hook his pivot foot from the outside with the foot or leg.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ma-sutemi-waza",
+                    "techniques": [
+                        {
+                            "name": "Tomoe-nage",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the head by breaking his balance forward and putting the right sole on his lower abdomen while laying down the body onto the back.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Sumi-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing his lapel or back with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Hikikomi-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing the back of his belt with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Tawara-gaeshi",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the shoulder by breaking his balance forward, leaning over his back, holding and lifting his upper body in both arms while laying down the body onto the back.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Ura-nage",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the shoulder by counteracting the opponent’s Nage-waza or other attack and holding and lifting his upper body while laying down the body onto the back.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "yoko-sutemi-waza",
+                    "techniques": [
+                        {
+                            "name": "Yoko-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to pull and throw down the opponent by breaking his balance rightward and laying down the body onto the left side while sliding the left leg toward the outside of his right foot .",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Tani-otoshi",
+                            "name_jp": null,
+                            "description": "A technique to pull and throw down the opponent by breaking his balance backward and laying down the body onto the left side while sliding the left leg behind him.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": true
+                            }
+                        },
+                        {
+                            "name": "Hane-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw down him by applying Hane-goshi and holding his right arm in the right armpit.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Soto-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw down him by breaking his balance forward, holding his right arm in the right armpit and thrusting the hip deeply.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Uchi-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw down him by breaking his balance forward, holding his right arm from the inside in the right arm and thrusting the hip deeply.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Uki-waza",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance toward the frontal-right corner and stretching the left leg to put it on the outside of his right foot while laying down the body onto the left side and rotating him.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Yoko-wakare",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance forward and stepping both feet onto the outside of his right foot while laying down the body onto the left side and rotating him over the body.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Yoko-guruma",
+                            "name_jp": null,
+                            "description": "A technique to rotate and throw down the opponent by counteracting his Nage-waza or other attack, holding his hip with the left arm to break his balance forward, sliding the right leg between his legs from the front while twisting the body and laying down the body onto the left side.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Yoko-gake",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by breaking his balance toward his right small toe and pushing and sweeping his right outer ankle with the left foot while laying down the body onto the left side.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Daki-wakare",
+                            "name_jp": null,
+                            "description": "A technique to throw the opponent over the body by holding his upper body from behind when he is about to be on the mat with both hands and feet and twisting the body while laying down the body onto the left side.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "O-soto-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw him down by applying O-soto-gari and holding his right arm in the right armpit.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Uchi-mata-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw him down by applying Uchi-mata and holding his right arm in the right armpit.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Harai-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw him down by applying Harai-goshi and holding his right arm in the right armpit.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Ko-uchi-makikomi",
+                            "name_jp": null,
+                            "description": "A technique to wrap the opponent round and throw him down by breaking his balance backward and hooking the right leg on his right leg from the inside while laying down the body forward.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Kani-basami",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent while holding his lower body with both legs by breaking his balance backward, turning the body toward his left side and putting the right leg on his lower abdomen and the left leg on the backside of both of his knees while laying down the body onto the left side.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
+                                "blue": false,
+                                "brown": false,
+                                "black": false
+                            }
+                        },
+                        {
+                            "name": "Kawazu-gake",
+                            "name_jp": null,
+                            "description": "A technique to throw down the opponent by drawing him closer, turning the body, hooking the right leg around his left leg from the inside and raising the leg forward while laying down the body with him.",
+                            "kata": null,
+                            "belts": {
+                                "white": false,
+                                "yellow": false,
+                                "orange": false,
+                                "green": false,
                                 "blue": false,
                                 "brown": false,
                                 "black": false
@@ -191,23 +1051,23 @@
             ]
         },
         {
-            "category": "katame-waza",
+            "category": "katame-waza 固技",
             "subcategories": [
                 {
-                    "name": "osaekomi-waza",
+                    "name": "osaekomi-waza 抑込技",
                     "techniques": [
                         {
                             "name": "kami-shiho-gatame",
                             "name_jp": "上四方固",
                             "description": "Kami Shiho Gatame is a grappling hold where the practitioner pins the opponent face-down on the ground.",
                             "kata": {
-                                "name": "Katame-no-kata",
+                                "name": "katame-no-kata",
                                 "series": 1,
                                 "number": 1
                             },
                             "belts": {
                                 "white": false,
-                                "yellow": true,
+                                "yellow": false,
                                 "orange": false,
                                 "green": false,
                                 "blue": false,
@@ -220,14 +1080,14 @@
                             "name_jp": "崩袈裟固",
                             "description": "Kuzure Kesa Gatame is a modified scarf hold where the practitioner controls the opponent's upper body.",
                             "kata": {
-                                "name": "Katame-no-kata",
+                                "name": "katame-no-kata",
                                 "series": 1,
                                 "number": 2
                             },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
-                                "orange": true,
+                                "orange": false,
                                 "green": false,
                                 "blue": false,
                                 "brown": false,
@@ -239,7 +1099,7 @@
                             "name_jp": "袈裟固",
                             "description": "Kesa Gatame is a scarf hold where the practitioner controls the opponent's upper body.",
                             "kata": {
-                                "name": "Katame-no-kata",
+                                "name": "katame-no-kata",
                                 "series": 1,
                                 "number": 3
                             },
@@ -247,7 +1107,7 @@
                                 "white": false,
                                 "yellow": false,
                                 "orange": false,
-                                "green": true,
+                                "green": false,
                                 "blue": false,
                                 "brown": false,
                                 "black": false
@@ -256,7 +1116,7 @@
                     ]
                 },
                 {
-                    "name": "shime-waza",
+                    "name": "shime-waza 締技",
                     "techniques": [
                         {
                             "name": "juji-gatame",
@@ -268,7 +1128,7 @@
                                 "yellow": false,
                                 "orange": false,
                                 "green": false,
-                                "blue": true,
+                                "blue": false,
                                 "brown": false,
                                 "black": false
                             }
@@ -284,7 +1144,7 @@
                                 "orange": false,
                                 "green": false,
                                 "blue": false,
-                                "brown": true,
+                                "brown": false,
                                 "black": false
                             }
                         },
@@ -300,7 +1160,7 @@
                                 "green": false,
                                 "blue": false,
                                 "brown": false,
-                                "black": true
+                                "black": false
                             }
                         }
                     ]
@@ -308,7 +1168,7 @@
             ]
         },
         {
-            "category": "kansetsu-waza",
+            "category": "kansetsu-waza 間接技",
             "subcategories": [
                 {
                     "name": "ude-hishigi",
@@ -324,7 +1184,7 @@
                                 "orange": false,
                                 "green": false,
                                 "blue": false,
-                                "brown": true,
+                                "brown": false,
                                 "black": false
                             }
                         },
@@ -340,7 +1200,7 @@
                                 "green": false,
                                 "blue": false,
                                 "brown": false,
-                                "black": true
+                                "black": false
                             }
                         },
                         {
@@ -355,7 +1215,7 @@
                                 "green": false,
                                 "blue": false,
                                 "brown": false,
-                                "black": true
+                                "black": false
                             }
                         }
                     ]

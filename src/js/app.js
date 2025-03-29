@@ -61,7 +61,7 @@ function updateSubCategories() {
     const selectedCategory = categorySelect.value;
 
     // Clear previous sub-categories
-    subCategorySelect.innerHTML = '<option value="">Select Sub-Category</option>';
+    subCategorySelect.innerHTML = '<option value="">Subcategorie</option>';
 
     if (selectedCategory) {
         const subCategories = subCategoriesData[selectedCategory];
@@ -123,7 +123,7 @@ function updateCardDisplay() {
     const previousButton = document.getElementById('previousButton');
 
     if (filteredCards.length === 0) {
-        cardTitleElement.textContent = 'No cards match the selected filters';
+        cardTitleElement.textContent = 'Geen technieken met huidige filter criteria';
         kataInfoElement.textContent = '';
         descriptionElement.textContent = '';
         cardNumberElement.textContent = '';
@@ -132,28 +132,33 @@ function updateCardDisplay() {
         previousButton.disabled = true;
     } else {
         const card = filteredCards[currentCardIndex];
-        cardTitleElement.textContent = `${card.name} (${card.name_jp})`;
+        var jp_txt = card.name_jp != null ? ` ${card.name_jp}` : ``;
+        cardTitleElement.textContent = `${card.name}${jp_txt}`;
 
         if (card.kata) {
             kataInfoElement.textContent = `${card.kata.name} (${card.kata.series}-${card.kata.number})`;
         } else {
-            kataInfoElement.textContent = 'Not part of a kata';
+            kataInfoElement.textContent = 'Geen onderdeel van een kata';
         }
 
         descriptionElement.textContent = card.description;
-        cardNumberElement.textContent = `Card ${currentCardIndex + 1} of ${filteredCards.length}`;
+        cardNumberElement.textContent = `${currentCardIndex + 1} van ${filteredCards.length}`;
 
         // Determine the lowest belt color
-        const belts = ['white', 'yellow', 'orange', 'green', 'blue', 'brown', 'black'];
-        const lowestBelt = belts.find(belt => card.belts[belt]);
-        beltStripeElement.className = `belt-stripe belt-${lowestBelt}`;
+        if (card.belts) {
+            const belts = ['white', 'yellow', 'orange', 'green', 'blue', 'brown', 'black'];
+            const lowestBelt = belts.find(belt => card.belts[belt]);
+            beltStripeElement.className = `belt-stripe belt-${lowestBelt}`;
+        } else {
+            beltStripeElement.className = `belt-stripe belt-empty`;
+        }
 
-        previousButton.disabled = currentCardIndex === 0;
+        previousButton.disabled = (currentCardIndex === 0);
 
         if (currentCardIndex === filteredCards.length - 1) {
-            nextButton.textContent = 'Start Over';
+            nextButton.innerHTML = '&#8634;'
         } else {
-            nextButton.textContent = 'Next Card';
+            nextButton.textContent = '>';
         }
         nextButton.disabled = false;
     }
