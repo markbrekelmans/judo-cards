@@ -30,13 +30,13 @@ fetch('src/data/waza.json')
         });
 
         // Populate the kata dropdown menu
-        /*const kataSelect = document.getElementById('kataSelect');
+        const kataSelect = document.getElementById('kataSelect');
         Object.keys(kataData).forEach(kataName => {
             const option = document.createElement('option');
             option.value = kataName;
             option.textContent = kataName;
             kataSelect.appendChild(option);
-        });*/
+        });
 
         // Flatten the nested structure into a single array of cards
         cards = data.waza.flatMap(category =>
