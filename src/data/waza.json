@@ -21,7 +21,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/seoi-nage/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 1,
+                                "number": 2
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -33,7 +37,7 @@
                             }
                         },
                         {
-                            "name": "Ippon-seoi-nage",
+                            "name": "Ippon-seoi-nage 一本背負投",
                             "name_jp": null,
                             "description": "A technique to throw the opponent over the right shoulder by breaking his balance forward and holding his right arm from the inside with the right arm to carry him on the back.",
                             "urls": [
@@ -47,11 +51,7 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/ippon-seoi-nage/"
                                 }
                             ],
-                            "kata": {
-                                "name": "nage-no-kata",
-                                "series": 1,
-                                "number": 1
-                            },
+                            "kata": null,
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -107,7 +107,11 @@
                             "name": "Kata-guruma",
                             "name_jp": null,
                             "description": "A technique to uplift the opponent on both shoulders across the back of the neck and throw him down by breaking his balance forward while holding his right thigh from the inside with the right arm.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 1,
+                                "number": 3
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -152,7 +156,11 @@
                             "name": "Uki-otoshi",
                             "name_jp": null,
                             "description": "A technique to throw down the opponent by breaking his balance forward and pulling him down toward the frontal-right corner.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 1,
+                                "number": 1
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -303,7 +311,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/uki-goshi/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 2,
+                                "number": 1
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -381,7 +393,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tsurikomi-goshi/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 2,
+                                "number": 3
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -422,7 +438,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/harai-goshi/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 2,
+                                "number": 2
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -554,7 +574,11 @@
                             "name": "Sasae-tsurikomi-ashi",
                             "name_jp": null,
                             "description": "A technique to hold the opponent’s right ankle with the left foot and throw him down by breaking his balance while lifting him up forward.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 3,
+                                "number": 2
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -673,7 +697,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/okuri-ashi-harai/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 3,
+                                "number": 1
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -699,7 +727,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/uchi-mata/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 3,
+                                "number": 3
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -910,7 +942,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tomoe-nage/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 4,
+                                "number": 1
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -936,7 +972,11 @@
                                     "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/sumi-gaeshi/"
                                 }
                             ],
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 4,
+                                "number": 3
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -981,7 +1021,11 @@
                             "name": "Ura-nage",
                             "name_jp": null,
                             "description": "A technique to throw the opponent over the shoulder by counteracting the opponent’s Nage-waza or other attack and holding and lifting his upper body while laying down the body onto the back.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 4,
+                                "number": 2
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -1087,7 +1131,11 @@
                             "name": "Uki-waza",
                             "name_jp": null,
                             "description": "A technique to throw down the opponent by breaking his balance toward the frontal-right corner and stretching the left leg to put it on the outside of his right foot while laying down the body onto the left side and rotating him.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 5,
+                                "number": 3
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -1117,7 +1165,11 @@
                             "name": "Yoko-guruma",
                             "name_jp": null,
                             "description": "A technique to rotate and throw down the opponent by counteracting his Nage-waza or other attack, holding his hip with the left arm to break his balance forward, sliding the right leg between his legs from the front while twisting the body and laying down the body onto the left side.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 5,
+                                "number": 2
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -1132,7 +1184,11 @@
                             "name": "Yoko-gake",
                             "name_jp": null,
                             "description": "A technique to throw down the opponent by breaking his balance toward his right small toe and pushing and sweeping his right outer ankle with the left foot while laying down the body onto the left side.",
-                            "kata": null,
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 5,
+                                "number": 1
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -1259,61 +1315,144 @@
                     "name": "osaekomi-waza 抑込技",
                     "techniques": [
                         {
-                            "name": "kami-shiho-gatame",
-                            "name_jp": "上四方固",
-                            "description": "Kami Shiho Gatame is a grappling hold where the practitioner pins the opponent face-down on the ground.",
-                            "kata": {
-                                "name": "katame-no-kata",
-                                "series": 1,
-                                "number": 1
-                            },
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
-                        },
-                        {
-                            "name": "kuzure-kesa-gatame",
-                            "name_jp": "崩袈裟固",
-                            "description": "Kuzure Kesa Gatame is a modified scarf hold where the practitioner controls the opponent's upper body.",
-                            "kata": {
-                                "name": "katame-no-kata",
-                                "series": 1,
-                                "number": 2
-                            },
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
-                        },
-                        {
-                            "name": "kesa-gatame",
+                            "name": "Kesa-gatame",
                             "name_jp": "袈裟固",
-                            "description": "Kesa Gatame is a scarf hold where the practitioner controls the opponent's upper body.",
-                            "kata": {
-                                "name": "katame-no-kata",
-                                "series": 1,
-                                "number": 3
-                            },
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "description": "A technique to hold down the opponent’s upper body under the right side of the chest region by holding his right arm in the left arm from the right side of the opponent lying on his back and gripping the back of his collar with the right hand.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=NDaQuJOFBYk"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Kuzure-kesa-gatame",
+                            "name_jp": "崩袈裟固",
+                            "description": "A technique to hold down the opponent’s upper body under the right side of the chest region by holding his right arm in the left arm from the right side of the opponent lying on his back and inserting the right arm through his left armpit.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=Q2fb9jaoUFQ"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ushiro-kesa-gatame",
+                            "name_jp": "後袈裟固",
+                            "description": "A technique to hold down the opponent’s upper body under the left side of the chest region by putting the left hip on the right side of his body from the right side of the opponent lying on his back, holding his right arm in the right arm and holding his upper body in the left arm.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=SBapox2M2dE"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Kata-gatame",
+                            "name_jp": "肩固",
+                            "description": "A technique to hold down the opponent by holding his right arm and neck with the right side of the neck and both arms from the right side of the opponent lying on his back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=zQR3IOXxO_Q"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Kami-shiho-gatame",
+                            "name_jp": "上四方固",
+                            "description": "A technique to hold down the opponent’s upper body under the chest and abdomen region by gripping both sides of his belt with both hands from the top side of his head while he is lying on his back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=HFuMjOv0WN8"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Kuzure-kami-shiho-gatame",
+                            "name_jp": "崩上四方固",
+                            "description": "A technique to hold down the opponent’s upper body under the chest and abdomen region by holding his right arm in the right arm from the diagonal-right side of his head and gripping the left side of his belt with the left hand while he is lying on his back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=YUrogQWdwiY"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Yoko-shiho-gatame",
+                            "name_jp": "横四方固",
+                            "description": "A technique to hold down the opponent’s upper body under the chest and abdomen region by grabbing his belt or trousers through his legs with the right hand from the right side of the opponent lying on his back and gripping his left side-collar through the back of his neck with the left hand.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=TT7XJVSEQxA"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Tate-shiho-gatame",
+                            "name_jp": "縦四方固",
+                            "description": "A technique to hold down the opponent’s upper body under the chest and abdomen region by lying on the stomach over the opponent lying on his back, holding his right arm and neck with both hands and holding his lower body with both legs.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=55-rFmBx53g"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Uki-gatame",
+                            "name_jp": "浮固",
+                            "description": "A technique to hold down the opponent’s upper body with the right leg by holding his right arm with one of the arms or both from the right side of the opponent lying on his back and stretching the left leg backward.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=e_lAjik1SUM"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ura-gatame",
+                            "name_jp": "裏固",
+                            "description": "A technique to hold down the opponent under the back region by holding his right arm with the right arm from the right side of the opponent lying on his back and grabbing his leg with the left hand.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=eeAHZB0v3XY"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
                         }
                     ]
                 },
@@ -1321,104 +1460,317 @@
                     "name": "shime-waza 締技",
                     "techniques": [
                         {
-                            "name": "juji-gatame",
-                            "name_jp": "十字固",
-                            "description": "Juji Gatame is a cross armlock where the practitioner applies pressure to the opponent's elbow joint.",
+                            "name": "Nami-juji-jime",
+                            "name_jp": "並十字絞",
+                            "description": "A technique to choke the opponent’s neck region by crossing the wrists from the front, gripping his side-collars with both thumbs inside and pushing both hands.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=k2cHry9HByQ"
+                                }
+                            ],
                             "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "belts": null
                         },
                         {
-                            "name": "ude-garami",
-                            "name_jp": "腕緘",
-                            "description": "Ude Garami is an entangled armlock where the practitioner controls the opponent's arm.",
+                            "name": "Gyaku-juji-jime",
+                            "name_jp": "逆十字絞",
+                            "description": "A technique to choke the opponent’s neck region by crossing the wrists from the front gripping his side-collars with four fingers of both hands inside and tightening arms.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=t3tQriIPdlI"
+                                }
+                            ],
                             "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "belts": null
                         },
                         {
-                            "name": "sankaku-jime",
+                            "name": "Kata-juji-jime",
+                            "name_jp": "片十字絞",
+                            "description": "A technique to choke the opponent’s neck region by crossing the wrists from the front gripping his left side-collar with four fingers of the left hand inside and the right side-collar with right thumb inside, pulling the left hand and pushing the right hand.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=3VZVUAmiMD8"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Hadaka-jime",
+                            "name_jp": "裸絞",
+                            "description": "A technique to choke the opponent’s neck region without using judogi by putting the right forearm on the opponent’s throat from behind and joining the left arm on it.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=9f0n8jez7iA"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Okuri-eri-jime",
+                            "name_jp": "送襟絞",
+                            "description": "A technique to choke the opponent’s neck region by gripping his left side-collar through his throat with the right hand and the right front-lapel through the left armpit with the left hand from behind, pulling the right hand in a right-rear direction and pulling down the left hand.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=EiqyoVcIAi8"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Kataha-jime",
+                            "name_jp": "片羽絞",
+                            "description": "A technique to choke the opponent’s neck region by gripping his left side-collar through his throat with right hand from behind, inserting the left arm through the left armpit to raise the arm upward, pulling the right hand in a right-rear direction and thrusting the left hand under the right arm.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=yaTGgRjnwB8"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Katate-jime",
+                            "name_jp": "片手絞",
+                            "description": "A technique to choke the opponent’s neck region by gripping his right side-collar with the right thumb inside from the left side of the opponent lying on his back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=cHeIs-fSqwE"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ryote-jime",
+                            "name_jp": "両手絞",
+                            "description": "A technique to choke the opponent’s neck region with fists from the front by gripping his left side-collar with right thumb inside and the right side-collar with left thumb inside.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=-RHC4V7TQiY"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Sode-guruma-jime",
+                            "name_jp": "袖車絞",
+                            "description": "A technique to choke the opponent’s neck region from the front by putting the right forearm on his throat and the left forearm behind the neck to hold his neck between them, gripping the right cuff with left hand and thrusting the right hand into the right side of his neck.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=E3nvQzClcAU"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Tsukkomi-jime",
+                            "name_jp": "突込絞",
+                            "description": "A technique to choke the opponent’s neck region from the front by gripping his right front-lapel with the left hand and the left front-lapel with the right hand and thrusting the right hand toward the right side of his neck.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=dKKpnD3eLcY"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Sankaku-jime",
                             "name_jp": "三角絞",
-                            "description": "Sankaku Jime is a triangle choke where the practitioner uses their legs to choke the opponent.",
+                            "description": "A technique to choke the opponent’s neck region by holding his neck and right armpit between both legs and hooking the right foot on the back of the left knee while forming a triangular form.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=lq1CUBRAm7s"
+                                }
+                            ],
                             "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "belts": null
+                        },
+                        {
+                            "name": "Do-jime",
+                            "name_jp": "胴絞",
+                            "description": "A technique to choke the opponent by holding his torso region between both legs.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=D_0fFcoIbvY"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "category": "kansetsu-waza 間接技",
-            "subcategories": [
+                },
                 {
-                    "name": "ude-hishigi",
+                    "name": "kansetsu-waza 間接技",
                     "techniques": [
                         {
-                            "name": "ude-hishigi-juji-gatame",
+                            "name": "Ude-garami",
+                            "name_jp": "腕緘",
+                            "description": "A technique to twist and lock the opponent’s elbow joint by grabbing his left wrist with the left hand from the right side of the opponent lying on his back and inserting the right hand to grip one's left wrist underneath his upper arm.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=AIlTvZb4RlE"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ude-hishigi-juji-gatame",
                             "name_jp": "腕挫十字固",
-                            "description": "Ude Hishigi Juji Gatame is an arm bar where the practitioner applies pressure to the opponent's elbow joint.",
+                            "description": "A technique to stretch and lock the opponent’s elbow joint by grabbing his right wrist with both hands from the right side of the opponent lying on his back and holding his upper arm between both thighs.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=OWgSOlCuMXw"
+                                }
+                            ],
                             "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "belts": null
                         },
                         {
-                            "name": "ude-hishigi-ude-garami",
-                            "name_jp": "腕挫腕緘",
-                            "description": "Ude Hishigi Ude Garami is an entangled arm bar where the practitioner controls the opponent's arm.",
+                            "name": "Ude-hishigi-ude-gatame",
+                            "name_jp": "腕挫腕固",
+                            "description": "A technique to stretch and lock the opponent’s elbow joint with both hands by holding his left wrist between the neck and the right shoulder from the right side of the opponent lying on his back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=SBf0aTma1VI"
+                                }
+                            ],
                             "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "belts": null
                         },
                         {
-                            "name": "ude-hishigi-hiza-gatame",
+                            "name": "Ude-hishigi-hiza-gatame",
                             "name_jp": "腕挫膝固",
-                            "description": "Ude Hishigi Hiza Gatame is a knee bar where the practitioner applies pressure to the opponent's knee joint.",
+                            "description": "A technique to stretch and lock the opponent’s elbow joint with the left knee by holding his right arm under the left armpit from the front.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=H2HtAJdiJcE"
+                                }
+                            ],
                             "kata": null,
-                            "belts": {
-                                "white": false,
-                                "yellow": false,
-                                "orange": false,
-                                "green": false,
-                                "blue": false,
-                                "brown": false,
-                                "black": false
-                            }
+                            "belts": null
+                        },
+                        {
+                            "name": "Ude-hishigi-waki-gatame",
+                            "name_jp": "腕挫腋固",
+                            "description": "A technique to stretch and lock the opponent’s elbow joint by grabbing his right wrist with both hands and holding the arm under the left armpit.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=8F5p1zuJRG0"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ude-hishigi-hara-gatame",
+                            "name_jp": null,
+                            "description": "A technique to stretch and lock the opponent’s elbow joint by grabbing his right wrist with the right hand from the right side of the opponent and pressing his arm on the abdomen.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "腕挫腹固"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ude-hishigi-ashi-gatame",
+                            "name_jp": "腕挫脚固",
+                            "description": "A technique to stretch and lock the opponent’s elbow joint by hooking the right leg on his right arm from the right side of the opponent lying on his stomach.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=ClY7g_pX-4s"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ude-hishigi-te-gatame",
+                            "name_jp": "腕挫手固",
+                            "description": "A technique to stretch and lock the opponent’s elbow joint by inserting the left arm from the right side of the opponent through his right armpit to grip his left front-lapel and grabbing his right wrist with the right hand or another technique to lock the opponent’s elbow joint by grabbing his wrist with one of the hands or both and twisting his wrist behind his back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=6DnvhY0tQVM"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ude-hishigi-sankaku-gatame",
+                            "name_jp": "腕挫三角固",
+                            "description": "A technique either to twist or stretch and lock the opponent’s elbow joint by holding his neck and right armpit between both legs and hooking the right foot on the back of the left knee while forming a triangular form.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=WefAmW4azhk"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
+                        },
+                        {
+                            "name": "Ashi-garami",
+                            "name_jp": "足緘",
+                            "description": "A technique to stretch and lock the opponent’s knee joint by inserting the left foot between the opponent’s legs from the front and wrapping the left leg around his right leg from behind to thrust it onto his lower abdomen.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=BWWb0GoAtZw"
+                                }
+                            ],
+                            "kata": null,
+                            "belts": null
                         }
                     ]
                 }
