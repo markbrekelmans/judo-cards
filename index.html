@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card App</title>
+    <title>Judo Cards</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -93,21 +93,21 @@
                 <option value="">Subcategorie</option>
             </select>
         </div>
-        <div class="control-group">
+        <!--div class="control-group">
             <select class="form-control" id="kataSelect" onchange="filterCards()">
                 <option value="">Kata</option>
             </select>
-        </div>
+        </div-->
         <div class="control-group">
             <select class="form-control" id="beltSelect" onchange="filterCards()">
-                <option value="">Graduatie</option>
-                <option value="white">rokkyu</option>
+                <option value="">Set</option>
+                <!--<option value="white">rokkyu</option>
                 <option value="yellow">go-kyu</option>
                 <option value="orange">yon-kyu</option>
                 <option value="green">san-kyu</option>
                 <option value="blue">ni-kyu</option>
-                <option value="brown">ikkyu</option>
-                <option value="black">sho-dan</option>
+                <option value="brown">ikkyu</option>-->
+                <option value="black">JBN 1e dan</option>
             </select>
         </div>
     </div>
@@ -119,6 +119,7 @@
         <div class="card-body">
             <p class="card-text" id="kataInfo"></p>
             <p class="card-text" id="description"></p>
+            <div class="card-text" id="urls"></div>
         </div>
         <div class="card-footer">
             <button class="btn btn-secondary" onclick="previousCard()" id="previousButton">&lt;</button>

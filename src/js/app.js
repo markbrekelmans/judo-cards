@@ -30,13 +30,13 @@ fetch('src/data/waza.json')
         });
 
         // Populate the kata dropdown menu
-        const kataSelect = document.getElementById('kataSelect');
+        /*const kataSelect = document.getElementById('kataSelect');
         Object.keys(kataData).forEach(kataName => {
             const option = document.createElement('option');
             option.value = kataName;
             option.textContent = kataName;
             kataSelect.appendChild(option);
-        });
+        });*/
 
         // Flatten the nested structure into a single array of cards
         cards = data.waza.flatMap(category =>
@@ -113,10 +113,30 @@ function filterCards() {
     updateCardDisplay();
 }
 
+function makeUrlList(array) {
+    var list = document.createElement('ul');
+
+    array.forEach(element => {
+        var item = document.createElement('li');
+        var link = document.createElement('a');
+
+        link.href = element.url;
+        link.target = '_blank';
+        link.textContent = element.name;
+
+        item.appendChild(link);
+
+        list.appendChild(item);
+    });
+
+    return list;
+}
+
 function updateCardDisplay() {
     const cardTitleElement = document.getElementById('cardTitle');
     const kataInfoElement = document.getElementById('kataInfo');
     const descriptionElement = document.getElementById('description');
+    const urlInfoElement = document.getElementById('urls');
     const cardNumberElement = document.getElementById('cardNumber');
     const beltStripeElement = document.getElementById('beltStripe');
     const nextButton = document.getElementById('nextButton');
@@ -126,6 +146,7 @@ function updateCardDisplay() {
         cardTitleElement.textContent = 'Geen technieken met huidige filter criteria';
         kataInfoElement.textContent = '';
         descriptionElement.textContent = '';
+        urlInfoElement.textContent = '';
         cardNumberElement.textContent = '';
         beltStripeElement.className = 'belt-stripe';
         nextButton.disabled = true;
@@ -139,6 +160,13 @@ function updateCardDisplay() {
             kataInfoElement.textContent = `${card.kata.name} (${card.kata.series}-${card.kata.number})`;
         } else {
             kataInfoElement.textContent = 'Geen onderdeel van een kata';
+        }
+
+        if (card.urls) {
+            urlInfoElement.textContent = '';
+            urlInfoElement.appendChild(makeUrlList(card.urls));
+        } else {
+            urlInfoElement.textContent = 'Geen links beschikbaar';
         }
 
         descriptionElement.textContent = card.description;

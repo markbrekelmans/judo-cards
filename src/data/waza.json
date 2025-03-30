@@ -10,6 +10,17 @@
                             "name": "Seoi-nage",
                             "name_jp": "背負投",
                             "description": "A technique to throw the opponent over the right shoulder by breaking his balance forward and inserting the right elbow underneath his right armpit to carry him on the back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=zIq0xI0ogxk"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/seoi-nage/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -25,7 +36,22 @@
                             "name": "Ippon-seoi-nage",
                             "name_jp": null,
                             "description": "A technique to throw the opponent over the right shoulder by breaking his balance forward and holding his right arm from the inside with the right arm to carry him on the back.",
-                            "kata": null,
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=FQnOlCxo4oI"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/ippon-seoi-nage/"
+                                }
+                            ],
+                            "kata": {
+                                "name": "nage-no-kata",
+                                "series": 1,
+                                "number": 1
+                            },
                             "belts": {
                                 "white": false,
                                 "yellow": false,
@@ -52,9 +78,20 @@
                             }
                         },
                         {
-                            "name": "Tai-otoshi",
+                            "name": "Tai-otoshi 体落",
                             "name_jp": null,
                             "description": "A technique to pull down and throw the opponent by breaking his balance forward and turning the body to the left to put the right foot in front of his right foot.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=4x6S3Q-Ktv8"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tai-otoshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -252,9 +289,20 @@
                     "name": "koshi-waza",
                     "techniques": [
                         {
-                            "name": "Uki-goshi",
+                            "name": "Uki-goshi 浮腰",
                             "name_jp": null,
                             "description": "A technique to throw down the opponent by breaking his balance forward and inserting the right arm through his left armpit while loading him slightly onto the hip and twisting the body.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=bPKwtB4lyOQ"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/uki-goshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -267,9 +315,20 @@
                             }
                         },
                         {
-                            "name": "O-goshi",
+                            "name": "O-goshi 大腰",
                             "name_jp": null,
                             "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and inserting the right arm through his left armpit while holding his hip and drawing it closer.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=yhu1mfy2vJ4"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/o-goshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -282,9 +341,20 @@
                             }
                         },
                         {
-                            "name": "Koshi-guruma",
+                            "name": "Koshi-guruma 腰車",
                             "name_jp": null,
                             "description": "A technique to rotate the opponent on the axis of the hip and throw him down by breaking his balance forward and holding his neck in the right arm while thrusting the hip deeply.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=SU7Id6uVJ44"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/koshi-guruma/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -297,9 +367,20 @@
                             }
                         },
                         {
-                            "name": "Tsurikomi-goshi",
+                            "name": "Tsurikomi-goshi 釣込腰",
                             "name_jp": null,
                             "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left front-lapel with the right hand and lifting it up.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=McfzA0yRVt4"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tsurikomi-goshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -327,9 +408,20 @@
                             }
                         },
                         {
-                            "name": "Harai-goshi",
+                            "name": "Harai-goshi 払腰",
                             "name_jp": null,
                             "description": "A technique to sweep up the opponent with the right leg and throw him down by breaking his balance forward and loading him onto the back of the right hip.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=qTo8HlAAkOo"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/harai-goshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -342,9 +434,20 @@
                             }
                         },
                         {
-                            "name": "Tsuri-goshi",
+                            "name": "Tsuri-goshi 釣腰",
                             "name_jp": null,
                             "description": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and grabbing the back of his belt to lift it up.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=51Htlp7xEvE"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tsuri-goshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -407,9 +510,20 @@
                     "name": "ashi-waza",
                     "techniques": [
                         {
-                            "name": "De-ashi-harai",
+                            "name": "De-ashi-harai 出足払",
                             "name_jp": null,
                             "description": "A technique to sweep the opponent’s right foot with the left foot and throw him down immediately when he takes a step forward and loads his weight onto it.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=4BUUvqxi_Kk"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/de-ashi-harai/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -452,9 +566,20 @@
                             }
                         },
                         {
-                            "name": "O-soto-gari",
+                            "name": "O-soto-gari 大外刈",
                             "name_jp": null,
                             "description": "A technique to reap the opponent’s right leg from the outside with the right leg and throw him down by breaking his balance backward.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=c-A_nP7mKAc"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/o-soto-gari/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -467,9 +592,20 @@
                             }
                         },
                         {
-                            "name": "O-uchi-gari",
+                            "name": "O-uchi-gari 大内刈",
                             "name_jp": null,
                             "description": "A technique to reap the opponent’s left leg from the inside with the right leg and throw him down by breaking his balance backward.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=0itJFhV9pDQ&pp=0gcJCb8Ag7Wk3p_U"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/o-uchi-gari/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -482,9 +618,20 @@
                             }
                         },
                         {
-                            "name": "Ko-soto-gari",
+                            "name": "Ko-soto-gari 小外刈",
                             "name_jp": null,
                             "description": "A technique to reap the opponent’s right foot from the outside with the left foot and throw him down by breaking his balance backward.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=jeQ541ScLB4"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/ko-soto-gari/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -512,9 +659,20 @@
                             }
                         },
                         {
-                            "name": "Okuri-ashi-harai",
+                            "name": "Okuri-ashi-harai 送足払",
                             "name_jp": null,
                             "description": "A technique to throw down the opponent by driving him leftward and sweep his right foot with the left foot so that both of his feet are put together.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=nw1ZdRjrdRI"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/okuri-ashi-harai/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -527,9 +685,20 @@
                             }
                         },
                         {
-                            "name": "Uchi-mata",
+                            "name": "Uchi-mata 内股",
                             "name_jp": null,
                             "description": "A technique to sweep up the opponent’s left inner thigh with the back of the right thigh and throw him down by breaking his balance forward.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=iUpSu5J-bgw"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/uchi-mata/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -727,9 +896,20 @@
                     "name": "ma-sutemi-waza",
                     "techniques": [
                         {
-                            "name": "Tomoe-nage",
+                            "name": "Tomoe-nage 巴投",
                             "name_jp": null,
                             "description": "A technique to throw the opponent over the head by breaking his balance forward and putting the right sole on his lower abdomen while laying down the body onto the back.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=880WbHvHv6A"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tomoe-nage/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -742,9 +922,20 @@
                             }
                         },
                         {
-                            "name": "Sumi-gaeshi",
+                            "name": "Sumi-gaeshi 隅返",
                             "name_jp": null,
                             "description": "A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing his lapel or back with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=5VhduA5xkbA"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/sumi-gaeshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
@@ -822,9 +1013,20 @@
                             }
                         },
                         {
-                            "name": "Tani-otoshi",
+                            "name": "Tani-otoshi 谷落",
                             "name_jp": null,
                             "description": "A technique to pull and throw down the opponent by breaking his balance backward and laying down the body onto the left side while sliding the left leg behind him.",
+                            "urls": [
+                                {
+                                    "name": "Kodokan Youtube",
+                                    "type": "video",
+                                    "url": "https://www.youtube.com/watch?v=3b9Me3Fohpk"
+                                },
+                                {
+                                    "name": "Judo Encyclopedie",
+                                    "url": "https://www.judo-encyclopedie.nl/judo_encyclopedie/tani-otoshi/"
+                                }
+                            ],
                             "kata": null,
                             "belts": {
                                 "white": false,
