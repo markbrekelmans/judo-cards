@@ -1,59 +1,52 @@
+let categories = [];
+let subcategories = [];
+let sets = [];
 let cards = [];
-let filteredCards = [];
 let currentCardIndex = 0;
-let subCategoriesData = {};
-let kataData = {};
+let filteredCards = [];
 
-// Fetch the JSON data
-fetch('src/data/waza.json')
+let categoryCount = {};
+let subcategoryCount = {};
+let setCount = {};
+
+fetch('src/data/cards.json')
     .then(response => response.json())
     .then(data => {
-        // Populate the main category dropdown menu
-        const categorySelect = document.getElementById('categorySelect');
-        data.waza.forEach(category => {
-            const option = document.createElement('option');
-            option.value = category.category;
-            option.textContent = `${category.category} (${category.subcategories.reduce((sum, sub) => sum + sub.techniques.length, 0)})`;
-            categorySelect.appendChild(option);
+        categories = data.categories;
+        subcategories = data.subcategories;
+        sets = data.sets;
+        cards = data.cards;
 
-            // Store sub-categories data for later use
-            subCategoriesData[category.category] = category.subcategories;
-
-            // Collect kata data
-            category.subcategories.forEach(sub => {
-                sub.techniques.forEach(technique => {
-                    if (technique.kata) {
-                        kataData[technique.kata.name] = technique.kata;
-                    }
-                });
-            });
-        });
-
-        // Populate the kata dropdown menu
-        const kataSelect = document.getElementById('kataSelect');
-        Object.keys(kataData).forEach(kataName => {
-            const option = document.createElement('option');
-            option.value = kataName;
-            option.textContent = kataName;
-            kataSelect.appendChild(option);
-        });
-
-        // Flatten the nested structure into a single array of cards
-        cards = data.waza.flatMap(category =>
-            category.subcategories.flatMap(sub =>
-                sub.techniques.map(technique => ({
-                    ...technique,
-                    category: category.category,
-                    subcategory: sub.name
-                }))
-            )
-        );
-
-        // Initially load all cards
+        // load all cards
         filteredCards = [...cards];
-        updateCardDisplay();
+
+        // count cards
+        countCards();
+
+        // populate categories
+        const categorySelect = document.getElementById('categorySelect');
+
+        categories.forEach(element => {
+            const option = document.createElement('option');
+            option.value = element.id;
+            option.textContent = `${element.name} (${categoryCount[element.id]})`;
+            categorySelect.appendChild(option);
+        });
+
+        // populate sets
+        const setSelect = document.getElementById('setSelect');
+
+        sets.forEach(element => {
+            const option = document.createElement('option');
+            option.value = element.id;
+            option.textContent = `${element.name} (${setCount[element.id]})`;
+            setSelect.appendChild(option);
+        });
+
+        // display cards
+        displayCards();
     })
-    .catch(error => console.error('Error loading cards:', error));
+    .catch(error => console.error('Error reading card data:', error));
 
 function updateSubCategories() {
     const categorySelect = document.getElementById('categorySelect');
@@ -63,147 +56,136 @@ function updateSubCategories() {
     // Clear previous sub-categories
     subCategorySelect.innerHTML = '<option value="">Subcategorie</option>';
 
-    if (selectedCategory) {
-        const subCategories = subCategoriesData[selectedCategory];
-        subCategories.forEach(sub => {
-            const option = document.createElement('option');
-            option.value = sub.name;
-            option.textContent = `${sub.name} (${sub.techniques.length})`;
-            subCategorySelect.appendChild(option);
+    if(selectedCategory) {
+        subcategories.forEach(element => {
+            if(element.category == selectedCategory) {
+                const option = document.createElement('option');
+                option.value = element.id;
+                option.textContent = element.name + ` (${subcategoryCount[element.id]})`;
+                subCategorySelect.appendChild(option);
+            }
         });
     }
 
-    // Reset filtered cards and update display
-    filterCards();
+    filterCards(); //gets called in this function, which gets called when category select changes.
 }
 
 function filterCards() {
-    const selectedCategory = document.getElementById('categorySelect').value;
-    const selectedSubCategory = document.getElementById('subCategorySelect').value;
-    const selectedKata = document.getElementById('kataSelect').value;
-    const selectedBelt = document.getElementById('beltSelect').value;
+    const selectedCategory = parseInt(document.getElementById('categorySelect').value,10);
+    const selectedSubCategory = parseInt(document.getElementById('subCategorySelect').value,10);
+    const selectedSet = parseInt(document.getElementById('setSelect').value,10);
 
     filteredCards = [...cards];
 
-    if (selectedCategory) {
-        filteredCards = filteredCards.filter(card =>
-            card.category === selectedCategory
-        );
+    if(selectedCategory) {
+        filteredCards = filteredCards.filter(card => {
+            return card.subcategories.some(subcatId => {
+                const subcategory = subcategories.find(subcat => subcat.id === subcatId);
+                return subcategory && subcategory.category === selectedCategory;
+            });
+        });
     }
 
-    if (selectedSubCategory) {
-        filteredCards = filteredCards.filter(card =>
-            card.subcategory === selectedSubCategory
-        );
+    if(selectedSubCategory) {
+        filteredCards = filteredCards.filter(card => {
+            return card.subcategories.some(subcat => subcat === selectedSubCategory);
+        });
     }
 
-    if (selectedKata) {
-        filteredCards = filteredCards.filter(card =>
-            card.kata && card.kata.name === selectedKata
-        );
-    }
-
-    if (selectedBelt) {
-        filteredCards = filteredCards.filter(card =>
-            card.belts[selectedBelt]
-        );
+    if(selectedSet) {
+        filteredCards = filteredCards.filter(card => {
+            return card.sets.some(set => set === selectedSet);
+        });
     }
 
     currentCardIndex = 0;
-    updateCardDisplay();
+    displayCards();
 }
 
-function makeUrlList(array) {
-    var list = document.createElement('ul');
-
-    array.forEach(element => {
-        var item = document.createElement('li');
-        var link = document.createElement('a');
-
-        link.href = element.url;
-        link.target = '_blank';
-        link.textContent = element.name;
-
-        item.appendChild(link);
-
-        list.appendChild(item);
-    });
-
-    return list;
+function firstCard() {
+    currentCardIndex = 0;
+    displayCards();
 }
 
-function updateCardDisplay() {
-    const cardTitleElement = document.getElementById('cardTitle');
-    const kataInfoElement = document.getElementById('kataInfo');
-    const descriptionElement = document.getElementById('description');
-    const urlInfoElement = document.getElementById('urls');
-    const cardNumberElement = document.getElementById('cardNumber');
-    const beltStripeElement = document.getElementById('beltStripe');
-    const nextButton = document.getElementById('nextButton');
-    const previousButton = document.getElementById('previousButton');
-
-    if (filteredCards.length === 0) {
-        cardTitleElement.textContent = 'Geen technieken met huidige filter criteria';
-        kataInfoElement.textContent = '';
-        descriptionElement.textContent = '';
-        urlInfoElement.textContent = '';
-        cardNumberElement.textContent = '';
-        beltStripeElement.className = 'belt-stripe';
-        nextButton.disabled = true;
-        previousButton.disabled = true;
-    } else {
-        const card = filteredCards[currentCardIndex];
-        var jp_txt = card.name_jp != null ? ` ${card.name_jp}` : ``;
-        cardTitleElement.textContent = `${card.name}${jp_txt}`;
-
-        if (card.kata) {
-            kataInfoElement.textContent = `${card.kata.name} (${card.kata.series}-${card.kata.number})`;
-        } else {
-            kataInfoElement.textContent = 'Geen onderdeel van een kata';
-        }
-
-        if (card.urls) {
-            urlInfoElement.textContent = '';
-            urlInfoElement.appendChild(makeUrlList(card.urls));
-        } else {
-            urlInfoElement.textContent = 'Geen links beschikbaar';
-        }
-
-        descriptionElement.textContent = card.description;
-        cardNumberElement.textContent = `${currentCardIndex + 1} van ${filteredCards.length}`;
-
-        // Determine the lowest belt color
-        if (card.belts) {
-            const belts = ['white', 'yellow', 'orange', 'green', 'blue', 'brown', 'black'];
-            const lowestBelt = belts.find(belt => card.belts[belt]);
-            beltStripeElement.className = `belt-stripe belt-${lowestBelt}`;
-        } else {
-            beltStripeElement.className = `belt-stripe belt-empty`;
-        }
-
-        previousButton.disabled = (currentCardIndex === 0);
-
-        if (currentCardIndex === filteredCards.length - 1) {
-            nextButton.innerHTML = '&#8634;'
-        } else {
-            nextButton.textContent = '>';
-        }
-        nextButton.disabled = false;
+function previousCard() {
+    if (currentCardIndex > 0) {
+        currentCardIndex--;
+        displayCards();
     }
 }
 
 function nextCard() {
     if (currentCardIndex < filteredCards.length - 1) {
         currentCardIndex++;
-    } else {
-        currentCardIndex = 0; // Start over
+        displayCards();
     }
-    updateCardDisplay();
 }
 
-function previousCard() {
-    if (currentCardIndex > 0) {
-        currentCardIndex--;
-        updateCardDisplay();
+function lastCard() {
+    currentCardIndex = filteredCards.length - 1;
+    displayCards();
+}
+
+function countCards() {
+    // Iterate through each card
+    filteredCards.forEach(card => {
+        // Count cards per category
+        card.subcategories.forEach(subcatId => {
+            const subcategory = subcategories.find(subcat => subcat.id === subcatId);
+            if (subcategory) {
+                const categoryId = subcategory.category;
+                if (!categoryCount[categoryId]) {
+                    categoryCount[categoryId] = 0;
+                }
+                categoryCount[categoryId]++;
+
+                // Count cards per subcategory
+                if (!subcategoryCount[subcatId]) {
+                    subcategoryCount[subcatId] = 0;
+                }
+                subcategoryCount[subcatId]++;
+            }
+        });
+
+        // Count cards per set
+        card.sets.forEach(setId => {
+            if (!setCount[setId]) {
+                setCount[setId] = 0;
+            }
+            setCount[setId]++;
+        });
+    });
+}
+
+function displayCards() {
+    const cardTitleElement = document.getElementById('cardTitle');
+    const cardColorElement = document.getElementById('cardColor').firstChild;
+    const cardContentElement = document.getElementById('cardContent');
+    const cardNumberElement = document.getElementById('cardNumber');
+    const firstButton = document.getElementById('firstButton');
+    const previousButton = document.getElementById('previousButton');
+    const nextButton = document.getElementById('nextButton');
+    const lastButton = document.getElementById('lastButton');
+
+    if(filteredCards.length == 0) {
+        cardTitleElement.textContent = 'Geen data gevonden op basis van deze selectie';
+        cardContentElement.innerHTML = '';
+        cardNumberElement.textContent = '';
+
+        firstButton.disabled = true;
+        previousButton.disabled = true;
+        nextButton.disabled = true;
+        lastButton.disabled = true;
+    } else {
+        const card = filteredCards[currentCardIndex];
+        cardTitleElement.textContent = card.title;
+        cardColorElement.className = `bi bi-circle-fill ${card.color}`;
+        cardContentElement.innerHTML = marked.parse(card.content);
+        cardNumberElement.textContent = `${currentCardIndex + 1} van ${filteredCards.length}`;
+
+        firstButton.disabled = (currentCardIndex === 0);
+        previousButton.disabled = (currentCardIndex === 0);
+        nextButton.disabled = (currentCardIndex === filteredCards.length-1);
+        lastButton.disabled = (currentCardIndex === filteredCards.length-1);
     }
 }

@@ -1,0 +1,1132 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "nage-waza 投技"
+        },
+        {
+            "id": 2,
+            "name": "katame-waza 固技"
+        }
+    ],
+    "subcategories": [
+        {
+            "id": 1,
+            "category": 1,
+            "name": "te-waza 手技"
+        },
+        {
+            "id": 2,
+            "category": 1,
+            "name": "koshi-waza 腰技"
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "ashi-waza 足技"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "ma-sutemi-waza 真捨身技"
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "yoko-sutemi-waza 横捨身技"
+        },
+        {
+            "id": 6,
+            "category": 2,
+            "name": "osaekomi-waza 抑込技"
+        },
+        {
+            "id": 7,
+            "category": 2,
+            "name": "shime-waza 絞技"
+        },
+        {
+            "id": 8,
+            "category": 2,
+            "name": "kansetsu-waza 関節技"
+        }
+    ],
+    "sets": [
+        {
+            "id": 1,
+            "name": "1e dan 初段"
+        }
+    ],
+    "cards": [
+        {
+            "id": 1,
+            "title": "Seoi-nage 背負投",
+            "color": "",
+            "content": "A technique to throw the opponent over the right shoulder by breaking his balance forward and inserting the right elbow underneath his right armpit to carry him on the back. \n - [Kodokan text](http://150.60.32.66/en/waza/digest/01/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 2,
+            "title": "Ippon-seoi-nage 一本背負投",
+            "color": "yellow",
+            "content": "*Eenzijdige rugworp*\nA technique to throw the opponent over the right shoulder by breaking his balance forward and holding his right arm from the inside with the right arm to carry him on the back.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/02/)\n - [Kodokan video](https://youtu.be/FQnOlCxo4oI)",
+            "subcategories": [
+                1
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Seoi-otoshi 背負落",
+            "color": "",
+            "content": "A technique to pull down and throw the opponent by breaking his balance forward and falling on one of the knees or both while carrying him on the back.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/03/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 4,
+            "title": "Tai-otoshi 体落",
+            "color": "",
+            "content": "A technique to pull down and throw the opponent by breaking his balance forward and turning the body to the left to put the right foot in front of his right foot.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/04/)\n - [Kodokan video](https://youtu.be/4x6S3Q-Ktv8)",
+            "subcategories": [
+                1
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Kata-guruma 肩車",
+            "color": "",
+            "content": "A technique to uplift the opponent on both shoulders across the back of the neck and throw him down by breaking his balance forward while holding his right thigh from the inside with the right arm.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/10/)\n - [Kodokan video](https://youtu.be/cnHRhSy8yi4)",
+            "subcategories": [
+                1
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Sukui-nage 掬投",
+            "color": "",
+            "content": "A technique to uplift and throw down the opponent by breaking his balance backward while stepping behind him and holding both of his thighs from the front side with both hands or another technique to uplift the opponent's one of thighs and throw him down by inserting the hand between his legs.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/05/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 7,
+            "title": "Obi-otoshi 帯落",
+            "color": "",
+            "content": "A technique to uplift and throw down the opponent by grabbing the front side of his belt with the right hand, pulling it forward while stepping behind him and holding his hip from the front side with the left hand to break his balance backward.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/06/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 8,
+            "title": "Uki-otoshi 浮落",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance forward and pulling him down toward the frontal-right corner.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/09/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 9,
+            "title": "Sumi-otoshi 隅落",
+            "color": "",
+            "content": "A technique to push and throw down the opponent by breaking his balance toward the retral-right corner while stepping onto the outside of his right foot with the left.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/11/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 10,
+            "title": "Yama-arashi 山嵐",
+            "color": "",
+            "content": "A technique to sweep up the opponent's right leg with the right foot and throw him down by grabbing his right sleeve with the left hand and gripping his right side-collar with the right thumb inside while breaking his balance by lifting him up forward.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/15/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 11,
+            "title": "Obi-tori-gaeshi 帯取返",
+            "color": "",
+            "content": "A technique to throw the opponent over the right shoulder by grabbing his belt over his shoulder with the right hand and holding his right arm or leg with the left hand while lifting him up.",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 12,
+            "title": "Morote-gari 双手刈",
+            "color": "",
+            "content": "A technique to reap and throw down the opponent by holding both of his legs from the outside in both hands.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/07/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 13,
+            "title": "Kuchiki-taoshi 朽木倒",
+            "color": "",
+            "content": "A technique to push down the opponent backward by holding one of his legs either from the inside or outside with one of the hands and pulling it up.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/12/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 14,
+            "title": "Kibisu-gaeshi 踵返",
+            "color": "",
+            "content": "A technique to throw the opponent by reaping his heel either from the inside or outside with one of the hands.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/13/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 15,
+            "title": "Uchi-mata-sukashi 内股すかし",
+            "color": "",
+            "content": "A technique to fend off the opponent's Uchi-mata attempt and throw him down.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/08/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 16,
+            "title": "Ko-uchi-gaeshi 小内返",
+            "color": "",
+            "content": "A technique to dodge the opponent's Ko-uchi-gari attempt and throw him down.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/14/)",
+            "subcategories": [
+                1
+            ],
+            "sets": []
+        },
+        {
+            "id": 17,
+            "title": "Uki-goshi 浮腰",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance forward and inserting the right arm through his left armpit while loading him slightly onto the hip and twisting the body.\n - [Kodokan video](https://youtu.be/bPKwtB4lyOQ)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 18,
+            "title": "O-goshi 大越",
+            "color": "yellow",
+            "content": "*Grote heup*\n A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and inserting the right arm through his left armpit while holding his hip and drawing it closer.\n - [Kodokan video](https://youtu.be/yhu1mfy2vJ4)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Koshi-guruma 腰車",
+            "color": "yellow",
+            "content": "*Heupwiel*\n A technique to rotate the opponent on the axis of the hip and throw him down by breaking his balance forward and holding his neck in the right arm while thrusting the hip deeply.\n - [Kodokan video](https://youtu.be/SU7Id6uVJ44)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Tsurikomi-goshi 釣込腰",
+            "color": "",
+            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left front-lapel with the right hand and lifting it up.\n - [Kodokan video](https://youtu.be/McfzA0yRVt4)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Sode-tsurikomi-goshi 袖釣込腰",
+            "color": "",
+            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left sleeve with the right hand and lifting it up.\n - [Kodokan video](https://youtu.be/QsmAxpmYLOI)",
+            "subcategories": [
+                2
+            ],
+            "sets": []
+        },
+        {
+            "id": 22,
+            "title": "Harai-goshi 腹腰",
+            "color": "",
+            "content": "A technique to sweep up the opponent with the right leg and throw him down by breaking his balance forward and loading him onto the back of the right hip.\n - [Kodokan video](https://youtu.be/qTo8HlAAkOo)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Tsuri-goshi 釣腰",
+            "color": "",
+            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and grabbing the back of his belt to lift it up.\n - [Kodokan video](https://youtu.be/51Htlp7xEvE)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Hane-goshi 跳腰",
+            "color": "",
+            "content": "A technique to spring up the opponent with the back of the right hip and the right leg and throw him down by breaking his balance forward.",
+            "subcategories": [
+                2
+            ],
+            "sets": []
+        },
+        {
+            "id": 25,
+            "title": "Utsuri-goshi 移腰",
+            "color": "",
+            "content": "A technique to throw down the opponent by counteracting his Nage-waza or other attack, holding and lifting his hip with the right arm and shifting him onto the back of the hip.",
+            "subcategories": [
+                2
+            ],
+            "sets": []
+        },
+        {
+            "id": 26,
+            "title": "Ushiro-goshi 後腰",
+            "color": "",
+            "content": "A technique to throw down the opponent vertically by counteracting his Nage-waza or other attack and holding and lifting his hip.\n - [Kodokan video](https://youtu.be/ORIYstuxYT8)",
+            "subcategories": [
+                2
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 27,
+            "title": "De-ashi-harai 出足払",
+            "color": "yellow",
+            "content": "*Voorste beenveeg*\n A technique to sweep the opponent's right foot with the left foot and throw him down immediately when he takes a step forward and loads his weight onto it.\n - [Kodokan video](https://youtu.be/4BUUvqxi_Kk)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Hiza-guruma 膝車",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance forward and hold his right knee with the left foot to rotate him around it.\n - [Kodokan video](https://youtu.be/JPJx9-oAVns)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 29,
+            "title": "Sasae-tsurikomi-ashi 支釣込足",
+            "color": "",
+            "content": "A technique to hold the opponent's right ankle with the left foot and throw him down by breaking his balance while lifting him up forward.\n - [Kodokan video](https://youtu.be/699i--pvYmE)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 30,
+            "title": "O-soto-gari 大外刈",
+            "color": "yellow",
+            "content": "*Grote buitenwaartse maai*\n A technique to reap the opponent's right leg from the outside with the right leg and throw him down by breaking his balance backward.\n - [Kodokan video](https://www.youtube.com/watch?v=c-A_nP7mKAc)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 31,
+            "title": "O-uchi-gari 大内刈",
+            "color": "",
+            "content": "A technique to reap the opponent's left leg from the inside with the right leg and throw him down by breaking his balance backward.\n - [Kodokan video](https://youtu.be/0itJFhV9pDQ)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 32,
+            "title": "Ko-soto-gari 小外刈",
+            "color": "",
+            "content": "A technique to reap the opponent's right foot from the outside with the left foot and throw him down by breaking his balance backward.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 33,
+            "title": "Ko-uchi-gari 小内刈",
+            "color": "",
+            "content": "A technique to reap the opponent's right foot from the inside with the right foot and throw him down by breaking his balance backward.\n - [Kodokan video](https://youtu.be/3Jb3tZvr9Ng)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 34,
+            "title": "Okuri-ashi-harai 送足払",
+            "color": "",
+            "content": "A technique to throw down the opponent by driving him leftward and sweep his right foot with the left foot so that both of his feet are put together.\n - [Kodokan video](https://youtu.be/nw1ZdRjrdRI)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 35,
+            "title": "Uchi-mata 内股",
+            "color": "",
+            "content": "A technique to sweep up the opponent's left inner thigh with the back of the right thigh and throw him down by breaking his balance forward.\n - [Kodokan video](https://youtu.be/iUpSu5J-bgw)",
+            "subcategories": [
+                3
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 36,
+            "title": "Ko-soto-gake 小外掛",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance backward, hooking the left foot or leg from the outside on his right leg and uplifting his body.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 37,
+            "title": "Ashi-guruma 足車",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance forward, putting the right leg on his right knee and rotating him on its axis.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 38,
+            "title": "Harai-tsurikomi-ashi 払釣込足",
+            "color": "",
+            "content": "A technique to sweep up the opponent's ankle with the left foot from the front and throw him down by breaking his balance while lifting him up forward.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 39,
+            "title": "O-guruma 大車",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance forward and putting the right leg around the area from his lower abdomen to upper part of thighs to rotate him on its axis.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 40,
+            "title": "O-soto-guruma 大外車",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance backward and putting the right leg behind both of his legs to rotate him on its axis.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 41,
+            "title": "O-soto-otoshi 大外落",
+            "color": "",
+            "content": "A technique to throw down the opponent vertically by breaking his balance backward and sliding down the right leg on the back of his right thigh.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 42,
+            "title": "Tsubame-gaeshi 燕返",
+            "color": "",
+            "content": "A technique to throw down the opponent by fending off his foot sweeping attempt and counter-sweeping with the same foot that was being attacked.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 43,
+            "title": "O-soto-gaeshi 大外返",
+            "color": "",
+            "content": "A technique to throw down the opponent by counter-reaping his O-soto-gari attempt with the leg that is being attacked.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 44,
+            "title": "O-uchi-gaeshi 大内返",
+            "color": "",
+            "content": "A technique to throw down the opponent by counter-reaping his O-uchi-gari attempt with the leg that is being attacked.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 45,
+            "title": "Hane-goshi-gaeshi 跳腰返",
+            "color": "",
+            "content": "A technique to throw down the opponent by counteracting his Hane-goshi attempt either to reap or hook his pivot foot from the outside with the foot or leg.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 46,
+            "title": "Harai-goshi-gaeshi 払腰返",
+            "color": "",
+            "content": "A technique to throw down the opponent by counteracting his Harai-goshi attempt either to reap or hook his pivot foot from the outside with the foot or leg.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 47,
+            "title": "Uchi-mata-gaeshi 内股返",
+            "color": "",
+            "content": "A technique to throw down the opponent by counteracting his Uchi-mata attempt either to reap or hook his pivot foot from the outside with the foot or leg.",
+            "subcategories": [
+                3
+            ],
+            "sets": []
+        },
+        {
+            "id": 48,
+            "title": "Tomoe-nage 巴投",
+            "color": "",
+            "content": "A technique to throw the opponent over the head by breaking his balance forward and putting the right sole on his lower abdomen while laying down the body onto the back.\n - [Kodokan video](https://youtu.be/880WbHvHv6A)",
+            "subcategories": [
+                4
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 49,
+            "title": "Sumi-gaeshi 隅返",
+            "color": "",
+            "content": "A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing his lapel or back with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.\n - [Kodokan video](https://youtu.be/5VhduA5xkbA)",
+            "subcategories": [
+                4
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 50,
+            "title": "Hikikomi-gaeshi 引込返",
+            "color": "",
+            "content": "A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing the back of his belt with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.",
+            "subcategories": [
+                4
+            ],
+            "sets": []
+        },
+        {
+            "id": 51,
+            "title": "Tawara-gaeshi 俵返",
+            "color": "",
+            "content": "A technique to throw the opponent over the shoulder by breaking his balance forward, leaning over his back, holding and lifting his upper body in both arms while laying down the body onto the back.",
+            "subcategories": [
+                4
+            ],
+            "sets": []
+        },
+        {
+            "id": 52,
+            "title": "Ura-nage 裏投",
+            "color": "",
+            "content": "A technique to throw the opponent over the shoulder by counteracting the opponent's Nage-waza or other attack and holding and lifting his upper body while laying down the body onto the back.",
+            "subcategories": [
+                4
+            ],
+            "sets": []
+        },
+        {
+            "id": 53,
+            "title": "Yoko-otoshi 横落",
+            "color": "",
+            "content": "A technique to pull and throw down the opponent by breaking his balance rightward and laying down the body onto the left side while sliding the left leg toward the outside of his right foot .",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 54,
+            "title": "Tani-otoshi 谷落",
+            "color": "",
+            "content": "A technique to pull and throw down the opponent by breaking his balance backward and laying down the body onto the left side while sliding the left leg behind him.\n - [Kodokan video](https://youtu.be/3b9Me3Fohpk)",
+            "subcategories": [
+                5
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 55,
+            "title": "Hane-makikomi 跳巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw down him by applying Hane-goshi and holding his right arm in the right armpit.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 56,
+            "title": "Soto-makikomi 外巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw down him by breaking his balance forward, holding his right arm in the right armpit and thrusting the hip deeply.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 57,
+            "title": "Uchi-makikomi 内巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw down him by breaking his balance forward, holding his right arm from the inside in the right arm and thrusting the hip deeply.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 58,
+            "title": "Uki-waza 浮技",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance toward the frontal-right corner and stretching the left leg to put it on the outside of his right foot while laying down the body onto the left side and rotating him.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 59,
+            "title": "Yoko-wakare 横分",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance forward and stepping both feet onto the outside of his right foot while laying down the body onto the left side and rotating him over the body.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 60,
+            "title": "Yoko-guruma 横車",
+            "color": "",
+            "content": "A technique to rotate and throw down the opponent by counteracting his Nage-waza or other attack, holding his hip with the left arm to break his balance forward, sliding the right leg between his legs from the front while twisting the body and laying down the body onto the left side.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 61,
+            "title": "Yoko-gake 横掛",
+            "color": "",
+            "content": "A technique to throw down the opponent by breaking his balance toward his right small toe and pushing and sweeping his right outer ankle with the left foot while laying down the body onto the left side.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 62,
+            "title": "Daki-wakare 抱分",
+            "color": "",
+            "content": "A technique to throw the opponent over the body by holding his upper body from behind when he is about to be on the mat with both hands and feet and twisting the body while laying down the body onto the left side.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 63,
+            "title": "O-soto-makikomi 大外巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw him down by applying O-soto-gari and holding his right arm in the right armpit.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 64,
+            "title": "Uchi-mata-makikomi 内股巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw him down by applying Uchi-mata and holding his right arm in the right armpit.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 65,
+            "title": "Harai-makikomi 払巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw him down by applying Harai-goshi and holding his right arm in the right armpit.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 66,
+            "title": "Ko-uchi-makikomi 小内巻込",
+            "color": "",
+            "content": "A technique to wrap the opponent round and throw him down by breaking his balance backward and hooking the right leg on his right leg from the inside while laying down the body forward.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 67,
+            "title": "Kani-basami 蟹挟",
+            "color": "",
+            "content": "A technique to throw down the opponent while holding his lower body with both legs by breaking his balance backward, turning the body toward his left side and putting the right leg on his lower abdomen and the left leg on the backside of both of his knees while laying down the body onto the left side.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 68,
+            "title": "Kawazu-gake 河津掛",
+            "color": "",
+            "content": "A technique to throw down the opponent by drawing him closer, turning the body, hooking the right leg around his left leg from the inside and raising the leg forward while laying down the body with him.",
+            "subcategories": [
+                5
+            ],
+            "sets": []
+        },
+        {
+            "id": 69,
+            "title": "Kesa-gatame 袈裟固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the right side of the chest region by holding his right arm in the left arm from the right side of the opponent lying on his back and gripping the back of his collar with the right hand.\n - [Kodokan video](https://youtu.be/NDaQuJOFBYk)",
+            "subcategories": [
+                6
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 70,
+            "title": "Kuzure-kesa-gatame 崩袈裟固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the right side of the chest region by holding his right arm in the left arm from the right side of the opponent lying on his back and inserting the right arm through his left armpit.",
+            "subcategories": [
+                6
+            ],
+            "sets": []
+        },
+        {
+            "id": 71,
+            "title": "Ushiro-kesa-gatame 後袈裟固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the left side of the chest region by putting the left hip on the right side of his body from the right side of the opponent lying on his back, holding his right arm in the right arm and holding his upper body in the left arm.",
+            "subcategories": [
+                6
+            ],
+            "sets": []
+        },
+        {
+            "id": 72,
+            "title": "Kata-gatame 肩固",
+            "color": "",
+            "content": "A technique to hold down the opponent by holding his right arm and neck with the right side of the neck and both arms from the right side of the opponent lying on his back.",
+            "subcategories": [
+                6
+            ],
+            "sets": []
+        },
+        {
+            "id": 73,
+            "title": "Kami-shiho-gatame 上四方固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the chest and abdomen region by gripping both sides of his belt with both hands from the top side of his head while he is lying on his back.\n - [Kodokan video](https://youtu.be/HFuMjOv0WN8)",
+            "subcategories": [
+                6
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 74,
+            "title": "Kuzure-kami-shiho-gatame 崩上四方固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the chest and abdomen region by holding his right arm in the right arm from the diagonal-right side of his head and gripping the left side of his belt with the left hand while he is lying on his back.",
+            "subcategories": [
+                6
+            ],
+            "sets": []
+        },
+        {
+            "id": 75,
+            "title": "Yoko-shiho-gatame 横四方固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the chest and abdomen region by grabbing his belt or trousers through his legs with the right hand from the right side of the opponent lying on his back and gripping his left side-collar through the back of his neck with the left hand.\n - [Kodokan video](https://youtu.be/TT7XJVSEQxA)",
+            "subcategories": [
+                6
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 76,
+            "title": "Tate-shiho-gatame 縦四方固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body under the chest and abdomen region by lying on the stomach over the opponent lying on his back, holding his right arm and neck with both hands and holding his lower body with both legs.\n - [Kodokan video](https://youtu.be/55-rFmBx53g)",
+            "subcategories": [
+                6
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 77,
+            "title": "Uki-gatame 浮固",
+            "color": "",
+            "content": "A technique to hold down the opponent's upper body with the right leg by holding his right arm with one of the arms or both from the right side of the opponent lying on his back and stretching the left leg backward.",
+            "subcategories": [
+                6
+            ],
+            "sets": []
+        },
+        {
+            "id": 78,
+            "title": "Ura-gatame 裏固",
+            "color": "",
+            "content": "A technique to hold down the opponent under the back region by holding his right arm with the right arm from the right side of the opponent lying on his back and grabbing his leg with the left hand.",
+            "subcategories": [
+                6
+            ],
+            "sets": []
+        },
+        {
+            "id": 79,
+            "title": "Nami-juji-jime 並十字絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by crossing the wrists from the front, gripping his side-collars with both thumbs inside and pushing both hands.\n - [Kodokan video](https://youtu.be/k2cHry9HByQ)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 80,
+            "title": "Gyaku-juji-jime 逆十字絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by crossing the wrists from the front gripping his side-collars with four fingers of both hands inside and tightening arms.\n - [Kodokan video](https://youtu.be/t3tQriIPdlI)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 81,
+            "title": "Kata-juji-jime 片十字絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by crossing the wrists from the front gripping his left side-collar with four fingers of the left hand inside and the right side-collar with right thumb inside, pulling the left hand and pushing the right hand.\n - [Kodokan video](https://youtu.be/3VZVUAmiMD8)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 82,
+            "title": "Hadaka-jime 裸絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region without using judogi by putting the right forearm on the opponent's throat from behind and joining the left arm on it.\n - [Kodokan video](https://youtu.be/9f0n8jez7iA)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 83,
+            "title": "Okuri-eri-jime 送襟絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by gripping his left side-collar through his throat with the right hand and the right front-lapel through the left armpit with the left hand from behind, pulling the right hand in a right-rear direction and pulling down the left hand.\n - [Kodokan video](https://youtu.be/EiqyoVcIAi8)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 84,
+            "title": "Kataha-jime 片羽絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by gripping his left side-collar through his throat with right hand from behind, inserting the left arm through the left armpit to raise the arm upward, pulling the right hand in a right-rear direction and thrusting the left hand under the right arm.\n - [Kodokan video](https://youtu.be/yaTGgRjnwB8)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 85,
+            "title": "Katate-jime 片手絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by gripping his right side-collar with the right thumb inside from the left side of the opponent lying on his back.",
+            "subcategories": [
+                7
+            ],
+            "sets": []
+        },
+        {
+            "id": 86,
+            "title": "Ryote-jime 両手絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region with fists from the front by gripping his left side-collar with right thumb inside and the right side-collar with left thumb inside.",
+            "subcategories": [
+                7
+            ],
+            "sets": []
+        },
+        {
+            "id": 87,
+            "title": "Sode-guruma-jime 袖車絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region from the front by putting the right forearm on his throat and the left forearm behind the neck to hold his neck between them, gripping the right cuff with left hand and thrusting the right hand into the right side of his neck.",
+            "subcategories": [
+                7
+            ],
+            "sets": []
+        },
+        {
+            "id": 88,
+            "title": "Tsukkomi-jime 突込絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region from the front by gripping his right front-lapel with the left hand and the left front-lapel with the right hand and thrusting the right hand toward the right side of his neck.",
+            "subcategories": [
+                7
+            ],
+            "sets": []
+        },
+        {
+            "id": 89,
+            "title": "Sankaku-jime 三角絞",
+            "color": "",
+            "content": "A technique to choke the opponent's neck region by holding his neck and right armpit between both legs and hooking the right foot on the back of the left knee while forming a triangular form.\n - [Kodokan video](https://youtu.be/lq1CUBRAm7s)",
+            "subcategories": [
+                7
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 90,
+            "title": "Do-jime 胴絞",
+            "color": "",
+            "content": "A technique to choke the opponent by holding his torso region between both legs.",
+            "subcategories": [
+                7
+            ],
+            "sets": []
+        },
+        {
+            "id": 91,
+            "title": "Ude-garami 腕緘",
+            "color": "",
+            "content": "A technique to twist and lock the opponent's elbow joint by grabbing his left wrist with the left hand from the right side of the opponent lying on his back and inserting the right hand to grip one's left wrist underneath his upper arm.\n - [Kodokan video](https://youtu.be/AIlTvZb4RlE)",
+            "subcategories": [
+                8
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 92,
+            "title": "Ude-hishigi-juji-gatame 腕挫十字固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint by grabbing his right wrist with both hands from the right side of the opponent lying on his back and holding his upper arm between both thighs.\n - [Kodokan video](https://youtu.be/OWgSOlCuMXw)",
+            "subcategories": [
+                8
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 93,
+            "title": "Ude-hishigi-ude-gatame 腕挫腕固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint with both hands by holding his left wrist between the neck and the right shoulder from the right side of the opponent lying on his back.\n - [Kodokan video](https://youtu.be/SBf0aTma1VI)",
+            "subcategories": [
+                8
+            ],
+            "sets": [
+                1
+            ]
+        },
+        {
+            "id": 94,
+            "title": "Ude-hishigi-hiza-gatame 腕挫膝固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint with the left knee by holding his right arm under the left armpit from the front.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        },
+        {
+            "id": 95,
+            "title": "Ude-hishigi-waki-gatame 腕挫腋固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint by grabbing his right wrist with both hands and holding the arm under the left armpit.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        },
+        {
+            "id": 96,
+            "title": "Ude-hishigi-hara-gatame 腕挫腹固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint by grabbing his right wrist with the right hand from the right side of the opponent and pressing his arm on the abdomen.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        },
+        {
+            "id": 97,
+            "title": "Ude-hishigi-ashi-gatame 腕挫脚固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint by hooking the right leg on his right arm from the right side of the opponent lying on his stomach.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        },
+        {
+            "id": 98,
+            "title": "Ude-hishigi-te-gatame 腕挫手固",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's elbow joint by inserting the left arm from the right side of the opponent through his right armpit to grip his left front-lapel and grabbing his right wrist with the right hand or another technique to lock the opponent's elbow joint by grabbing his wrist with one of the hands or both and twisting his wrist behind his back.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        },
+        {
+            "id": 99,
+            "title": "Ude-hishigi-sankaku-gatame 腕挫三角固",
+            "color": "",
+            "content": "A technique either to twist or stretch and lock the opponent's elbow joint by holding his neck and right armpit between both legs and hooking the right foot on the back of the left knee while forming a triangular form.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        },
+        {
+            "id": 100,
+            "title": "Ashi-garami 足緘",
+            "color": "",
+            "content": "A technique to stretch and lock the opponent's knee joint by inserting the left foot between the opponent's legs from the front and wrapping the left leg around his right leg from behind to thrust it onto his lower abdomen.",
+            "subcategories": [
+                8
+            ],
+            "sets": []
+        }
+    ]
+}
