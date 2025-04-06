@@ -179,7 +179,11 @@ function displayCards() {
     } else {
         const card = filteredCards[currentCardIndex];
         cardTitleElement.textContent = card.title;
-        cardColorElement.className = `bi bi-circle-fill ${card.color}`;
+        if(card.color === null || card.color.length == 0) {
+            cardColorElement.className = 'hidden';
+        } else {
+            cardColorElement.className = `bi bi-circle-fill ${card.color}`;
+        }
         cardContentElement.innerHTML = marked.parse(card.content);
         cardNumberElement.textContent = `${currentCardIndex + 1} van ${filteredCards.length}`;
 
