@@ -72,7 +72,7 @@
             "id": 2,
             "title": "Ippon-seoi-nage 一本背負投",
             "color": "yellow",
-            "content": "*Eenzijdige rugworp* \n\n A technique to throw the opponent over the right shoulder by breaking his balance forward and holding his right arm from the inside with the right arm to carry him on the back.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/02/)\n - [Kodokan video](https://youtu.be/FQnOlCxo4oI)",
+            "content": "*Eenzijdige rugworp* \n\n A technique to throw the opponent over the right shoulder by breaking his balance forward and holding his right arm from the inside with the right arm to carry him on the back.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/02/)\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/FQnOlCxo4oI>Kodokan video</a>",
             "subcategories": [
                 1
             ],
@@ -94,7 +94,7 @@
             "id": 4,
             "title": "Tai-otoshi 体落",
             "color": "green",
-            "content": "*Lichaam neervallen* \n\n A technique to pull down and throw the opponent by breaking his balance forward and turning the body to the left to put the right foot in front of his right foot.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/04/)\n - [Kodokan video](https://youtu.be/4x6S3Q-Ktv8)",
+            "content": "*Lichaam neervallen* \n\n A technique to pull down and throw the opponent by breaking his balance forward and turning the body to the left to put the right foot in front of his right foot.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/04/)\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/4x6S3Q-Ktv8>Kodokan video</a>",
             "subcategories": [
                 1
             ],
@@ -106,7 +106,7 @@
             "id": 5,
             "title": "Kata-guruma 肩車",
             "color": "black",
-            "content": "A technique to uplift the opponent on both shoulders across the back of the neck and throw him down by breaking his balance forward while holding his right thigh from the inside with the right arm.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/10/)\n - [Kodokan video](https://youtu.be/cnHRhSy8yi4)",
+            "content": "A technique to uplift the opponent on both shoulders across the back of the neck and throw him down by breaking his balance forward while holding his right thigh from the inside with the right arm.\n - [Kodokan text](http://150.60.32.66/en/waza/digest/10/)\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/cnHRhSy8yi4>Kodokan video</a>",
             "subcategories": [
                 1
             ],
@@ -228,7 +228,7 @@
             "id": 17,
             "title": "Uki-goshi 浮腰",
             "color": "black",
-            "content": "A technique to throw down the opponent by breaking his balance forward and inserting the right arm through his left armpit while loading him slightly onto the hip and twisting the body.\n - [Kodokan video](https://youtu.be/bPKwtB4lyOQ)",
+            "content": "A technique to throw down the opponent by breaking his balance forward and inserting the right arm through his left armpit while loading him slightly onto the hip and twisting the body.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/bPKwtB4lyOQ>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -238,9 +238,9 @@
         },
         {
             "id": 18,
-            "title": "O-goshi 大越",
+            "title": "O-goshi 大腰",
             "color": "yellow",
-            "content": "*Grote heup* \n\n A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and inserting the right arm through his left armpit while holding his hip and drawing it closer.\n - [Kodokan video](https://youtu.be/yhu1mfy2vJ4)",
+            "content": "*Grote heup* \n\n A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and inserting the right arm through his left armpit while holding his hip and drawing it closer.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/yhu1mfy2vJ4>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -252,7 +252,7 @@
             "id": 19,
             "title": "Koshi-guruma 腰車",
             "color": "yellow",
-            "content": "*Heupwiel* \n\n A technique to rotate the opponent on the axis of the hip and throw him down by breaking his balance forward and holding his neck in the right arm while thrusting the hip deeply.\n - [Kodokan video](https://youtu.be/SU7Id6uVJ44)",
+            "content": "*Heupwiel* \n\n A technique to rotate the opponent on the axis of the hip and throw him down by breaking his balance forward and holding his neck in the right arm while thrusting the hip deeply.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/SU7Id6uVJ44>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -264,7 +264,7 @@
             "id": 20,
             "title": "Tsurikomi-goshi 釣込腰",
             "color": "blue",
-            "content": "*Tillende heup* \n\n A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left front-lapel with the right hand and lifting it up.\n - [Kodokan video](https://youtu.be/McfzA0yRVt4)",
+            "content": "*Tillende heup* \n\n A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left front-lapel with the right hand and lifting it up.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/McfzA0yRVt4>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -276,7 +276,7 @@
             "id": 21,
             "title": "Sode-tsurikomi-goshi 袖釣込腰",
             "color": "",
-            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left sleeve with the right hand and lifting it up.\n - [Kodokan video](https://youtu.be/QsmAxpmYLOI)",
+            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward while gripping his left sleeve with the right hand and lifting it up.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/QsmAxpmYLOI>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -286,7 +286,7 @@
             "id": 22,
             "title": "Harai-goshi 腹腰",
             "color": "green",
-            "content": "*Veegworp* \n\n A technique to sweep up the opponent with the right leg and throw him down by breaking his balance forward and loading him onto the back of the right hip.\n - [Kodokan video](https://youtu.be/qTo8HlAAkOo)",
+            "content": "*Veegworp* \n\n A technique to sweep up the opponent with the right leg and throw him down by breaking his balance forward and loading him onto the back of the right hip.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/qTo8HlAAkOo>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -298,7 +298,7 @@
             "id": 23,
             "title": "Tsuri-goshi 釣腰",
             "color": "black",
-            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and grabbing the back of his belt to lift it up.\n - [Kodokan video](https://youtu.be/51Htlp7xEvE)",
+            "content": "A technique to load the opponent onto the back of the hip and throw him down by breaking his balance forward and grabbing the back of his belt to lift it up.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/51Htlp7xEvE>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -330,7 +330,7 @@
             "id": 26,
             "title": "Ushiro-goshi 後腰",
             "color": "black",
-            "content": "A technique to throw down the opponent vertically by counteracting his Nage-waza or other attack and holding and lifting his hip.\n - [Kodokan video](https://youtu.be/ORIYstuxYT8)",
+            "content": "A technique to throw down the opponent vertically by counteracting his Nage-waza or other attack and holding and lifting his hip.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/ORIYstuxYT8>Kodokan video</a>",
             "subcategories": [
                 2
             ],
@@ -342,7 +342,7 @@
             "id": 27,
             "title": "De-ashi-harai 出足払",
             "color": "yellow",
-            "content": "*Voorste beenveeg* \n\n A technique to sweep the opponent's right foot with the left foot and throw him down immediately when he takes a step forward and loads his weight onto it.\n - [Kodokan video](https://youtu.be/4BUUvqxi_Kk)",
+            "content": "*Voorste beenveeg* \n\n A technique to sweep the opponent's right foot with the left foot and throw him down immediately when he takes a step forward and loads his weight onto it.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/4BUUvqxi_Kk>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -354,7 +354,7 @@
             "id": 28,
             "title": "Hiza-guruma 膝車",
             "color": "orange",
-            "content": "*Kniewiel* \n\n A technique to throw down the opponent by breaking his balance forward and hold his right knee with the left foot to rotate him around it.\n - [Kodokan video](https://youtu.be/JPJx9-oAVns)",
+            "content": "*Kniewiel* \n\n A technique to throw down the opponent by breaking his balance forward and hold his right knee with the left foot to rotate him around it.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/JPJx9-oAVns>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -366,7 +366,7 @@
             "id": 29,
             "title": "Sasae-tsurikomi-ashi 支釣込足",
             "color": "black",
-            "content": "A technique to hold the opponent's right ankle with the left foot and throw him down by breaking his balance while lifting him up forward.\n - [Kodokan video](https://youtu.be/699i--pvYmE)",
+            "content": "A technique to hold the opponent's right ankle with the left foot and throw him down by breaking his balance while lifting him up forward.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/699i--pvYmE>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -378,7 +378,7 @@
             "id": 30,
             "title": "O-soto-gari 大外刈",
             "color": "yellow",
-            "content": "*Grote buitenwaartse maai* \n\n A technique to reap the opponent's right leg from the outside with the right leg and throw him down by breaking his balance backward.\n - [Kodokan video](https://www.youtube.com/watch?v=c-A_nP7mKAc)",
+            "content": "*Grote buitenwaartse maai* \n\n A technique to reap the opponent's right leg from the outside with the right leg and throw him down by breaking his balance backward.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://www.youtu.be/c-A_nP7mKAc>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -390,7 +390,7 @@
             "id": 31,
             "title": "O-uchi-gari 大内刈",
             "color": "green",
-            "content": "*Grote binnenwaartse maai* \n\n A technique to reap the opponent's left leg from the inside with the right leg and throw him down by breaking his balance backward.\n - [Kodokan video](https://youtu.be/0itJFhV9pDQ)",
+            "content": "*Grote binnenwaartse maai* \n\n A technique to reap the opponent's left leg from the inside with the right leg and throw him down by breaking his balance backward.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/0itJFhV9pDQ>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -412,7 +412,7 @@
             "id": 33,
             "title": "Ko-uchi-gari 小内刈",
             "color": "green",
-            "content": "*Kleine binnenwaartse maai* \n\n A technique to reap the opponent's right foot from the inside with the right foot and throw him down by breaking his balance backward.\n - [Kodokan video](https://youtu.be/3Jb3tZvr9Ng)",
+            "content": "*Kleine binnenwaartse maai* \n\n A technique to reap the opponent's right foot from the inside with the right foot and throw him down by breaking his balance backward.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/3Jb3tZvr9Ng>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -424,7 +424,7 @@
             "id": 34,
             "title": "Okuri-ashi-harai 送足払",
             "color": "blue",
-            "content": "*Beide benenveeg* \n\n A technique to throw down the opponent by driving him leftward and sweep his right foot with the left foot so that both of his feet are put together.\n - [Kodokan video](https://youtu.be/nw1ZdRjrdRI)",
+            "content": "*Beide benenveeg* \n\n A technique to throw down the opponent by driving him leftward and sweep his right foot with the left foot so that both of his feet are put together.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/nw1ZdRjrdRI>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -436,7 +436,7 @@
             "id": 35,
             "title": "Uchi-mata 内股",
             "color": "brown",
-            "content": "*Binnen dijbeen* \n\n A technique to sweep up the opponent's left inner thigh with the back of the right thigh and throw him down by breaking his balance forward.\n - [Kodokan video](https://youtu.be/iUpSu5J-bgw)",
+            "content": "*Binnen dijbeen* \n\n A technique to sweep up the opponent's left inner thigh with the back of the right thigh and throw him down by breaking his balance forward.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/iUpSu5J-bgw>Kodokan video</a>",
             "subcategories": [
                 3
             ],
@@ -568,7 +568,7 @@
             "id": 48,
             "title": "Tomoe-nage 巴投",
             "color": "orange",
-            "content": "*Boogworp* \n\n A technique to throw the opponent over the head by breaking his balance forward and putting the right sole on his lower abdomen while laying down the body onto the back.\n - [Kodokan video](https://youtu.be/880WbHvHv6A)",
+            "content": "*Boogworp* \n\n A technique to throw the opponent over the head by breaking his balance forward and putting the right sole on his lower abdomen while laying down the body onto the back.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/880WbHvHv6A>Kodokan video</a>",
             "subcategories": [
                 4
             ],
@@ -580,7 +580,7 @@
             "id": 49,
             "title": "Sumi-gaeshi 隅返",
             "color": "brown",
-            "content": "*Gehoekte tegenworp* \n\n A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing his lapel or back with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.\n - [Kodokan video](https://youtu.be/5VhduA5xkbA)",
+            "content": "*Gehoekte tegenworp* \n\n A technique to throw the opponent over the head by breaking his balance forward, drawing his upper body closer, while grabbing his lapel or back with the right hand and laying down the body onto the back, and lifting up the inside of his left thigh with the right lower leg.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/5VhduA5xkbA>Kodokan video</a>",
             "subcategories": [
                 4
             ],
@@ -632,7 +632,7 @@
             "id": 54,
             "title": "Tani-otoshi 谷落",
             "color": "green",
-            "content": "*Dal neervallen* \n\n A technique to pull and throw down the opponent by breaking his balance backward and laying down the body onto the left side while sliding the left leg behind him.\n - [Kodokan video](https://youtu.be/3b9Me3Fohpk)",
+            "content": "*Dal neervallen* \n\n A technique to pull and throw down the opponent by breaking his balance backward and laying down the body onto the left side while sliding the left leg behind him.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/3b9Me3Fohpk>Kodokan video</a>",
             "subcategories": [
                 5
             ],
@@ -784,7 +784,7 @@
             "id": 69,
             "title": "Kesa-gatame 袈裟固",
             "color": "yellow",
-            "content": "*Flankcontrole* \n\n A technique to hold down the opponent's upper body under the right side of the chest region by holding his right arm in the left arm from the right side of the opponent lying on his back and gripping the back of his collar with the right hand.\n - [Kodokan video](https://youtu.be/NDaQuJOFBYk)",
+            "content": "*Flankcontrole* \n\n A technique to hold down the opponent's upper body under the right side of the chest region by holding his right arm in the left arm from the right side of the opponent lying on his back and gripping the back of his collar with the right hand.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/NDaQuJOFBYk>Kodokan video</a>",
             "subcategories": [
                 6
             ],
@@ -826,7 +826,7 @@
             "id": 73,
             "title": "Kami-shiho-gatame 上四方固",
             "color": "yellow",
-            "content": "*Hoge 4 puntencontrole* \n\n A technique to hold down the opponent's upper body under the chest and abdomen region by gripping both sides of his belt with both hands from the top side of his head while he is lying on his back.\n - [Kodokan video](https://youtu.be/HFuMjOv0WN8)",
+            "content": "*Hoge 4 puntencontrole* \n\n A technique to hold down the opponent's upper body under the chest and abdomen region by gripping both sides of his belt with both hands from the top side of his head while he is lying on his back.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/HFuMjOv0WN8>Kodokan video</a>",
             "subcategories": [
                 6
             ],
@@ -848,7 +848,7 @@
             "id": 75,
             "title": "Yoko-shiho-gatame 横四方固",
             "color": "yellow",
-            "content": "*Zijwaartse 4 puntencontrole* \n\n A technique to hold down the opponent's upper body under the chest and abdomen region by grabbing his belt or trousers through his legs with the right hand from the right side of the opponent lying on his back and gripping his left side-collar through the back of his neck with the left hand.\n - [Kodokan video](https://youtu.be/TT7XJVSEQxA)",
+            "content": "*Zijwaartse 4 puntencontrole* \n\n A technique to hold down the opponent's upper body under the chest and abdomen region by grabbing his belt or trousers through his legs with the right hand from the right side of the opponent lying on his back and gripping his left side-collar through the back of his neck with the left hand.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/TT7XJVSEQxA>Kodokan video</a>",
             "subcategories": [
                 6
             ],
@@ -860,7 +860,7 @@
             "id": 76,
             "title": "Tate-shiho-gatame 縦四方固",
             "color": "green",
-            "content": "*Boven 4 puntencontrole* \n\n A technique to hold down the opponent's upper body under the chest and abdomen region by lying on the stomach over the opponent lying on his back, holding his right arm and neck with both hands and holding his lower body with both legs.\n - [Kodokan video](https://youtu.be/55-rFmBx53g)",
+            "content": "*Boven 4 puntencontrole* \n\n A technique to hold down the opponent's upper body under the chest and abdomen region by lying on the stomach over the opponent lying on his back, holding his right arm and neck with both hands and holding his lower body with both legs.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/55-rFmBx53g>Kodokan video</a>",
             "subcategories": [
                 6
             ],
@@ -892,7 +892,7 @@
             "id": 79,
             "title": "Nami-juji-jime 並十字絞",
             "color": "yellow",
-            "content": "*Gewone gekruiste verwurging* \n\n A technique to choke the opponent's neck region by crossing the wrists from the front, gripping his side-collars with both thumbs inside and pushing both hands.\n - [Kodokan video](https://youtu.be/k2cHry9HByQ)",
+            "content": "*Gewone gekruiste verwurging* \n\n A technique to choke the opponent's neck region by crossing the wrists from the front, gripping his side-collars with both thumbs inside and pushing both hands.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/k2cHry9HByQ>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -904,7 +904,7 @@
             "id": 80,
             "title": "Gyaku-juji-jime 逆十字絞",
             "color": "green",
-            "content": "*Omgekeerde gekruiste verwurging* \n\n A technique to choke the opponent's neck region by crossing the wrists from the front gripping his side-collars with four fingers of both hands inside and tightening arms.\n - [Kodokan video](https://youtu.be/t3tQriIPdlI)",
+            "content": "*Omgekeerde gekruiste verwurging* \n\n A technique to choke the opponent's neck region by crossing the wrists from the front gripping his side-collars with four fingers of both hands inside and tightening arms.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/t3tQriIPdlI>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -916,7 +916,7 @@
             "id": 81,
             "title": "Kata-juji-jime 片十字絞",
             "color": "yellow",
-            "content": "*Eenzijdige gekruiste verwurging* \n\n A technique to choke the opponent's neck region by crossing the wrists from the front gripping his left side-collar with four fingers of the left hand inside and the right side-collar with right thumb inside, pulling the left hand and pushing the right hand.\n - [Kodokan video](https://youtu.be/3VZVUAmiMD8)",
+            "content": "*Eenzijdige gekruiste verwurging* \n\n A technique to choke the opponent's neck region by crossing the wrists from the front gripping his left side-collar with four fingers of the left hand inside and the right side-collar with right thumb inside, pulling the left hand and pushing the right hand.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/3VZVUAmiMD8>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -928,7 +928,7 @@
             "id": 82,
             "title": "Hadaka-jime 裸絞",
             "color": "orange",
-            "content": "*Naakte verwurging* \n\n A technique to choke the opponent's neck region without using judogi by putting the right forearm on the opponent's throat from behind and joining the left arm on it.\n - [Kodokan video](https://youtu.be/9f0n8jez7iA)",
+            "content": "*Naakte verwurging* \n\n A technique to choke the opponent's neck region without using judogi by putting the right forearm on the opponent's throat from behind and joining the left arm on it.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/9f0n8jez7iA>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -940,7 +940,7 @@
             "id": 83,
             "title": "Okuri-eri-jime 送襟絞",
             "color": "orange",
-            "content": "*Beide revers verwurging* \n\n A technique to choke the opponent's neck region by gripping his left side-collar through his throat with the right hand and the right front-lapel through the left armpit with the left hand from behind, pulling the right hand in a right-rear direction and pulling down the left hand.\n - [Kodokan video](https://youtu.be/EiqyoVcIAi8)",
+            "content": "*Beide revers verwurging* \n\n A technique to choke the opponent's neck region by gripping his left side-collar through his throat with the right hand and the right front-lapel through the left armpit with the left hand from behind, pulling the right hand in a right-rear direction and pulling down the left hand.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/EiqyoVcIAi8>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -952,7 +952,7 @@
             "id": 84,
             "title": "Kataha-jime 片羽絞",
             "color": "brown",
-            "content": "*Eenzijdige vleugel verwurging* \n\n A technique to choke the opponent's neck region by gripping his left side-collar through his throat with right hand from behind, inserting the left arm through the left armpit to raise the arm upward, pulling the right hand in a right-rear direction and thrusting the left hand under the right arm.\n - [Kodokan video](https://youtu.be/yaTGgRjnwB8)",
+            "content": "*Eenzijdige vleugel verwurging* \n\n A technique to choke the opponent's neck region by gripping his left side-collar through his throat with right hand from behind, inserting the left arm through the left armpit to raise the arm upward, pulling the right hand in a right-rear direction and thrusting the left hand under the right arm.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/yaTGgRjnwB8>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -1004,7 +1004,7 @@
             "id": 89,
             "title": "Sankaku-jime 三角絞",
             "color": "blue",
-            "content": "*Onderliggende driehoeks verwurging* \n\n A technique to choke the opponent's neck region by holding his neck and right armpit between both legs and hooking the right foot on the back of the left knee while forming a triangular form.\n - [Kodokan video](https://youtu.be/lq1CUBRAm7s)",
+            "content": "*Onderliggende driehoeks verwurging* \n\n A technique to choke the opponent's neck region by holding his neck and right armpit between both legs and hooking the right foot on the back of the left knee while forming a triangular form.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/lq1CUBRAm7s>Kodokan video</a>",
             "subcategories": [
                 7
             ],
@@ -1026,7 +1026,7 @@
             "id": 91,
             "title": "Ude-garami 腕緘",
             "color": "yellow",
-            "content": "*Armverdraaiing* \n\n A technique to twist and lock the opponent's elbow joint by grabbing his left wrist with the left hand from the right side of the opponent lying on his back and inserting the right hand to grip one's left wrist underneath his upper arm.\n - [Kodokan video](https://youtu.be/AIlTvZb4RlE)",
+            "content": "*Armverdraaiing* \n\n A technique to twist and lock the opponent's elbow joint by grabbing his left wrist with the left hand from the right side of the opponent lying on his back and inserting the right hand to grip one's left wrist underneath his upper arm.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/AIlTvZb4RlE>Kodokan video</a>",
             "subcategories": [
                 8
             ],
@@ -1038,7 +1038,7 @@
             "id": 92,
             "title": "Ude-hishigi-juji-gatame 腕挫十字固",
             "color": "yellow",
-            "content": "*Gekruiste controle* \n\n A technique to stretch and lock the opponent's elbow joint by grabbing his right wrist with both hands from the right side of the opponent lying on his back and holding his upper arm between both thighs.\n - [Kodokan video](https://youtu.be/OWgSOlCuMXw)",
+            "content": "*Gekruiste controle* \n\n A technique to stretch and lock the opponent's elbow joint by grabbing his right wrist with both hands from the right side of the opponent lying on his back and holding his upper arm between both thighs.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/OWgSOlCuMXw>Kodokan video</a>",
             "subcategories": [
                 8
             ],
@@ -1050,7 +1050,7 @@
             "id": 93,
             "title": "Ude-hishigi-ude-gatame 腕挫腕固",
             "color": "orange",
-            "content": "*Armcontrole* \n\n A technique to stretch and lock the opponent's elbow joint with both hands by holding his left wrist between the neck and the right shoulder from the right side of the opponent lying on his back.\n - [Kodokan video](https://youtu.be/SBf0aTma1VI)",
+            "content": "*Armcontrole* \n\n A technique to stretch and lock the opponent's elbow joint with both hands by holding his left wrist between the neck and the right shoulder from the right side of the opponent lying on his back.\n - <a href=# data-bs-toggle=modal data-bs-target=#videoModal data-video-src=https://youtu.be/SBf0aTma1VI>Kodokan video</a>",
             "subcategories": [
                 8
             ],
