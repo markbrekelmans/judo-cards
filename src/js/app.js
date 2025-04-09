@@ -184,7 +184,17 @@ function displayCards() {
         } else {
             cardColorElement.className = `bi bi-circle-fill ${card.color}`;
         }
-        cardContentElement.innerHTML = marked.parse(card.content);
+        
+        // Parse the Markdown content to HTML
+        let contentHTML = marked.parse(card.content);
+
+        // Modify the HTML to add target="_blank" to external links
+        contentHTML = contentHTML.replace(
+            /<a href="(http[s]?:\/\/[^"]+)"/g,
+            '<a href="$1" target="_blank" rel="noopener noreferrer"'
+        );
+        cardContentElement.innerHTML = contentHTML;
+
         cardNumberElement.textContent = `${currentCardIndex + 1} van ${filteredCards.length}`;
 
         firstButton.disabled = (currentCardIndex === 0);
@@ -192,4 +202,64 @@ function displayCards() {
         nextButton.disabled = (currentCardIndex === filteredCards.length-1);
         lastButton.disabled = (currentCardIndex === filteredCards.length-1);
     }
+
+    // Call autoPlayYouTubeModal after the content is inserted
+    autoPlayYouTubeModal();
+}
+
+// Function to get and auto play YouTube video from datatag
+function autoPlayYouTubeModal() {
+    console.log('Function triggered');
+
+    // Use event delegation to handle clicks on dynamically generated elements
+    $("body").off('click', '[data-bs-toggle="modal"]').on('click', '[data-bs-toggle="modal"]', function(event) {
+        console.log('Click event captured on body');
+        console.log('Event target:', event.target);
+
+        if ($(event.target).is('[data-bs-toggle="modal"]')) {
+            console.log('Trigger element clicked');
+
+            // Get the target modal ID and video source URL
+            var theModal = "#videoModal"; // Since there's only one modal
+            var videoSRC = $(event.target).attr("data-video-src");
+
+            // Log the video source URL
+            console.log('Video source URL:', videoSRC);
+
+            // Check if the video source URL is available
+            if (!videoSRC) {
+                console.error('No video source URL found in data-video-src');
+                return;
+            }
+
+            // Extract the video ID from the URL
+            var videoID = extractVideoID(videoSRC);
+            if (!videoID) {
+                console.error('Invalid YouTube URL');
+                return;
+            }
+
+            // Construct the embed URL with autoplay
+            var videoSRCauto = `https://www.youtube.com/embed/${videoID}?autoplay=1&enablejsapi=1`;
+
+            // Set the iframe source to the autoplay URL
+            var iframe = $(theModal + ' iframe')[0];
+            iframe.src = videoSRCauto;
+
+            // Attach an event listener to stop the video when the modal is hidden
+            $(theModal).off('hidden.bs.modal').on('hidden.bs.modal', function() {
+                // Stop the video playback
+                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                iframe.src = `https://www.youtube.com/embed/${videoID}`;
+            });
+        } else {
+            console.log('Clicked element is not the trigger');
+        }
+    });
+}
+
+function extractVideoID(url) {
+    // Extract the video ID from a YouTube URL (both watch and short formats)
+    var match = url.match(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+    return match ? match[1] : null;
 }
