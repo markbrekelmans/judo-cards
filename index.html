@@ -29,9 +29,9 @@
             gap: 10px;
         }
         .card {
-            width: 100%;
+            /*width: 100%;*/
             max-width: 600px;
-            height: 400px; /* Fixed height for the card */
+            height: 400px;
             display: flex;
             flex-direction: column;
             position: relative;
@@ -41,20 +41,7 @@
             justify-content: space-between;
             align-items: center;
         }
-        .card-title {
-            font-size: 1.25rem;
-            font-weight: bold;
-            margin: 0;
-        }
-        .card-body {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-        }
-        .card-text {
-            text-align: left;
-        }
+
         .card-footer {
             display: flex;
             justify-content: space-between;
@@ -72,6 +59,21 @@
             width: 20px;
             height: 25px;
         }
+        .breadcrumb {
+            font-size:smaller;
+        }
+
+        .spinner-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
         .btn {
             min-width: 60px;
         }
@@ -97,7 +99,9 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <iframe width="100%" height="350" src="" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe width="100%" height="350" src="" allowfullscreen></iframe>
+                </div>
             </div>
           </div>
         </div>
@@ -105,6 +109,12 @@
     <!-- Cards -->
     <h1 class="h1 mb-3">Waza 技</h1>
     <div class="controls">
+        <!-- Set -->
+        <div class="control-group">
+            <select class="form-control" id="setSelect" onchange="filterCards()">
+                <option value="">Set</option>
+            </select>
+        </div>
         <!-- Categorie/subcategorie -->
         <div class="control-group">
             <select class="form-control" id="categorySelect" onchange="updateSubCategories()">
@@ -114,21 +124,29 @@
                 <option value="">Subcategorie</option>
             </select>
         </div>
-        <!-- Set -->
-        <div class="control-group">
-            <select class="form-control" id="setSelect" onchange="filterCards()">
-                <option value="">Set</option>
-            </select>
-        </div>
     </div>
-    <div class="card">
+    <div class="card w-75">
+        <!-- header -->
         <div class="card-header">
             <h3 class="card-title" id="cardTitle">Title</h3>
             <span class="card-color" id="cardColor"><i class="bi bi-circle-fill white"></i></span>
         </div>
+        <!-- body -->
         <div class="card-body">
-            <p class="card-text" id="cardContent">Content</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-light p-2 xsmall" id="bc">
+                    <li class="breadcrumb-item">Waza 技</li>
+                </ol>
+            </nav>
+            <div class="card-text" id="cardContent">
+                <div class="spinner-wrapper">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- footer -->
         <div class="card-footer">
             <button class="btn btn-secondary" onclick="firstCard()" id="firstButton">&laquo;</button>
             <button class="btn btn-primary" onclick="previousCard()" id="previousButton">&lsaquo;</button>
