@@ -20,16 +20,13 @@ fetch('src/data/cards.json')
         // load all cards
         filteredCards = [...cards];
 
-        // count cards
-        countCards();
-
         // populate categories
         const categorySelect = document.getElementById('categorySelect');
 
         categories.forEach(element => {
             const option = document.createElement('option');
             option.value = element.id;
-            option.textContent = `${element.name} (${categoryCount[element.id]})`;
+            option.textContent = element.name;
             categorySelect.appendChild(option);
         });
 
@@ -39,7 +36,7 @@ fetch('src/data/cards.json')
         sets.forEach(element => {
             const option = document.createElement('option');
             option.value = element.id;
-            option.textContent = `${element.name} (${setCount[element.id]})`;
+            option.textContent = element.name;
             setSelect.appendChild(option);
         });
 
@@ -61,7 +58,7 @@ function updateSubCategories() {
             if(element.category == selectedCategory) {
                 const option = document.createElement('option');
                 option.value = element.id;
-                option.textContent = element.name + ` (${subcategoryCount[element.id]})`;
+                option.textContent = element.name;
                 subCategorySelect.appendChild(option);
             }
         });
@@ -126,6 +123,49 @@ function lastCard() {
     displayCards();
 }
 
+function updateBreadcrumbs() {
+    // Get the breadcrumb element
+    const breadcrumbElement = document.getElementById('bc');
+    if (!breadcrumbElement) {
+        console.error('Breadcrumb element not found');
+        return;
+    }
+
+    // Clear existing breadcrumbs
+    breadcrumbElement.innerHTML = '<li class="breadcrumb-item">waza 技</li>';
+
+    if(filteredCards.length !== 0) {
+        // Get the current card and its subcategory ID
+        const cardSubcategories = filteredCards[currentCardIndex].subcategories;
+        const subcategoryId = cardSubcategories[0];
+
+        // Find the subcategory and category
+        const subcategory = subcategories.find(subcat => subcat.id === subcategoryId);
+        if (!subcategory) {
+            console.error('Subcategory not found');
+            return;
+        }
+
+        const category = categories.find(cat => cat.id === subcategory.category);
+        if (!category) {
+            console.error('Category not found');
+            return;
+        }
+
+        // Create and append the category breadcrumb item
+        const categoryItem = document.createElement('li');
+        categoryItem.innerText = category.name;
+        categoryItem.className = 'breadcrumb-item';
+        breadcrumbElement.appendChild(categoryItem);
+
+        // Create and append the subcategory breadcrumb item
+        const subcategoryItem = document.createElement('li');
+        subcategoryItem.innerText = subcategory.name;
+        subcategoryItem.className = 'breadcrumb-item active';
+        breadcrumbElement.appendChild(subcategoryItem);
+    }
+}
+
 function countCards() {
     // Iterate through each card
     filteredCards.forEach(card => {
@@ -168,7 +208,7 @@ function displayCards() {
     const lastButton = document.getElementById('lastButton');
 
     if(filteredCards.length == 0) {
-        cardTitleElement.textContent = 'Geen data gevonden op basis van deze selectie';
+        cardTitleElement.textContent = 'Geen kaarten gevonden';
         cardContentElement.innerHTML = '';
         cardNumberElement.textContent = '';
 
@@ -203,28 +243,21 @@ function displayCards() {
         lastButton.disabled = (currentCardIndex === filteredCards.length-1);
     }
 
+    // Set the breadcrumb trail
+    updateBreadcrumbs();
+
     // Call autoPlayYouTubeModal after the content is inserted
     autoPlayYouTubeModal();
 }
 
 // Function to get and auto play YouTube video from datatag
 function autoPlayYouTubeModal() {
-    console.log('Function triggered');
-
     // Use event delegation to handle clicks on dynamically generated elements
     $("body").off('click', '[data-bs-toggle="modal"]').on('click', '[data-bs-toggle="modal"]', function(event) {
-        console.log('Click event captured on body');
-        console.log('Event target:', event.target);
-
         if ($(event.target).is('[data-bs-toggle="modal"]')) {
-            console.log('Trigger element clicked');
-
             // Get the target modal ID and video source URL
             var theModal = "#videoModal"; // Since there's only one modal
             var videoSRC = $(event.target).attr("data-video-src");
-
-            // Log the video source URL
-            console.log('Video source URL:', videoSRC);
 
             // Check if the video source URL is available
             if (!videoSRC) {
