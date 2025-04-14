@@ -1,0 +1,105 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+        :root {
+            --color-white: #ffffff;
+            --color-yellow: #ffff00;
+            --color-orange: #ffa500;
+            --color-green: #008000;
+            --color-blue: #0000ff;
+            --color-brown: #8b4513;
+            --color-black: #000000;
+            --background-color: #f8f9fa;
+            --gap: 10px;
+            --padding: 10px;
+            --max-width: 600px;
+            --card-min-height: 450px;
+            --stripe-width: 20px;
+            --stripe-height: 25px;
+            --stripe-top: 10px;
+            --btn-min-width: 60px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--background-color);
+            padding: var(--padding);
+            touch-action: manipulation;
+        }
+
+        .controls, .card {
+            display: flex;
+            flex-direction: column;
+            gap: var(--gap);
+            width: 100%;
+            max-width: var(--max-width);
+        }
+
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        .card {
+            min-height: var(--card-min-height);
+            position: relative;
+        }
+
+        .control-group, .card-header, .card-footer {
+            display: flex;
+            gap: var(--gap);
+        }
+
+        .card-header, .card-footer {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-footer {
+            gap: var(--gap);
+        }
+
+        .card-count {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .color-stripe {
+            position: absolute;
+            top: var(--stripe-top);
+            right: 0;
+            width: var(--stripe-width);
+            height: var(--stripe-height);
+        }
+
+        .breadcrumb {
+            font-size: smaller;
+        }
+
+        .spinner-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .btn {
+            min-width: var(--btn-min-width);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .white { color: var(--color-white); }
+        .yellow { color: var(--color-yellow); }
+        .orange { color: var(--color-orange); }
+        .green { color: var(--color-green); }
+        .blue { color: var(--color-blue); }
+        .brown { color: var(--color-brown); }
+        .black { color: var(--color-black); }
