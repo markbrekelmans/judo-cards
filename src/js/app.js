@@ -225,6 +225,10 @@ function displayCards() {
             cardColorElement.className = `bi bi-circle-fill ${card.color}`;
         }
         
+        /**
+         * CARD CONTENTS
+         */
+
         // Parse the Markdown content to HTML
         let contentHTML = marked.parse(card.content);
 
@@ -233,8 +237,51 @@ function displayCards() {
             /<a href="(http[s]?:\/\/[^"]+)"/g,
             '<a href="$1" target="_blank" rel="noopener noreferrer"'
         );
-        cardContentElement.innerHTML = contentHTML;
 
+        // Create a temporary DOM element to hold the HTML content
+        let tempDiv = document.createElement('div');
+        tempDiv.innerHTML = contentHTML;
+
+        // Select all <ul> elements within the temporary DOM element
+        let ulElements = tempDiv.querySelectorAll('ul');
+
+        // Iterate over each <ul> element
+        ulElements.forEach(ul => {
+            // Add the 'list-group' class to the <ul> element
+            ul.classList.add('list-group');
+            ul.classList.add('list-group-flush');
+
+            // Select all child <li> elements within the current <ul>
+            let liElements = ul.querySelectorAll('li');
+
+            // Iterate over each <li> element and add the 'list-group-item' class
+            liElements.forEach(li => {
+                li.classList.add('list-group-item');
+            });
+        });
+
+        // Select all <a> elements within the temporary DOM element
+        let aElements = tempDiv.querySelectorAll('a');
+
+        // Iterate over each <a> element
+        aElements.forEach(a => {
+            // Add the target="_blank" and rel="noopener noreferrer" attributes
+            a.setAttribute('target', '_blank');
+            a.setAttribute('rel', 'noopener noreferrer');
+        });
+
+        // Get the modified HTML content back as a string
+        let modifiedContentHTML = tempDiv.innerHTML;
+
+        // Clean up the temporary DOM element
+        tempDiv = null;
+
+        // Finally, set the card contgents
+        cardContentElement.innerHTML = modifiedContentHTML;
+
+        /**
+         * NAVIGATION FOOTER
+         */
         cardNumberElement.textContent = `${currentCardIndex + 1} van ${filteredCards.length}`;
 
         firstButton.disabled = (currentCardIndex === 0);
